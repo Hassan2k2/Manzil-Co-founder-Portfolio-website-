@@ -1,0 +1,1778 @@
+Manzil
+
+Choose your path. Pick your university. Start your journey.
+
+Executive Summary
+Pakistan is home to one of the largest youth populations in the world, with over 22 million high
+school students. Yet structured academic and career guidance is almost non-existent. Most
+schools lack counselling resources, private consultants are prohibitively expensive, and
+students are left to make life-changing academic decisions based on guesswork, hearsay, or
+social pressure.
+Our solution is an academic pathway app that democratizes access to guidance. Students
+begin with free assessments that identify their academic strengths, interests, and values. Based
+on these insights, the app then offers premium features: curated lists of local and international
+universities, step-by-step admissions roadmaps, and access to a marketplace of vetted tutors
+and mentors.
+By launching first in Pakistan, we capture a massive underserved market and create a scalable
+model that can later be expanded.
+The Problem in Pakistan
+● No Access to Guidance: The majority of schools lack dedicated career counselling.
+● Expensive Alternatives: Elite consultants charge upwards of PKR 200,000 ($700+) per
+student, out of reach for most families.
+● Information Asymmetry: Students and parents have little credible information on
+university options, scholarships, or future career paths.
+● Cultural Narrowness: Career aspirations are typically limited to “doctor, engineer,
+lawyer,” ignoring emerging fields like data science, renewable energy, and design.
+
+Result: Students make uninformed choices, often leading to misaligned degrees, wasted
+resources, and reduced employability.
+
+The Solution
+Our app fills this gap by providing an accessible, engaging, and personalised guidance
+platform.
+
+Free Core Offering
+● Fun, interactive assessments in English and Urdu.
+● Reports showing top academic fields, learning styles, and career matches.
+● Instant clarity for students: “These are your strengths, and here’s where they could take
+you.”
+
+Premium Pathway Features
+● Dream University Lists: Tailored recommendations of Pakistani and international
+universities.
+● Admissions Roadmaps: Clear requirements, deadlines, and scholarship options.
+● Tutors & Mentors Marketplace: Verified tutors for SAT, MDCAT, ECAT, IELTS, and
+essay prep.
+● School Dashboards: Premium accounts for schools to guide their student cohorts.
+
+Assessment Flow – Student Journey
+Step 1: Onboarding (5 mins)
+● Quick profile setup: age, grade, subjects taken.
+● Ask: “What do you hope to do after school?” (doctor, engineer, unsure, etc.)
+● This sets a baseline of current awareness.
+
+Step 2: Interest Mapping (10 mins)
+● Tool: Shortened Holland RIASEC Test (20–30 questions, gamified).
+● Outcome: Identifies career interest type (e.g., Investigative → sciences, Social →
+teaching/psychology, Artistic → design/media).
+● Output: “You’re strongest in [Investigative + Social]. Fields to explore: medicine, data
+science, teaching, research.”
+
+Step 3: Strengths & Personality Snapshot (10–12 mins)
+● Tool: Mini Big Five Personality + custom academic strengths quiz.
+● Outcome: Shows learning style & strengths.
+○ Example output: “You thrive in structured environments, prefer independent work,
+and have strong verbal reasoning.”
+
+● Actionable link: Suggests study styles + careers aligned with strengths.
+
+Step 4: Skills Snapshot (5–7 mins)
+● Tool: Cognitive skills mini-test (logic, language, pattern recognition).
+● Outcome: Maps relative academic strengths → math-heavy vs. verbal vs. creative.
+● Actionable link: Recommends majors/programs.
+○ e.g., “Your logical reasoning is strong → fields like Computer Science,
+Engineering, Finance may be a great fit.”
+
+Step 5: Motivation & Values (5 mins)
+● Tool: Custom reflection quiz (“Would you prefer security or innovation?”).
+● Outcome: Surfaces student priorities (money vs. passion, stability vs. exploration).
+● Actionable link: Matches priorities to fields + lifestyles.
+
+Step 6: Career Awareness Boost (Pakistan Add-On) (Optional)
+● Tool: Quiz that introduces “hidden careers.”
+● Outcome: Broadens horizons beyond “doctor/engineer.”
+● Actionable link: Suggests emerging fields (AI, data, green energy, design, policy).
+
+Market Opportunity – Pakistan First
+• TAM: 22M+ high school students.
+• SAM: 5M+ preparing for university.
+• SOM: 500K urban students in Year 1 target.
+Pakistan is the launchpad before scaling globally.
+
+Business Model
+• Free Entry – Free assessments for mass adoption. Top 3 recommended academic fields and
+careers.
+• Premium Subscriptions – To unlock hidden careers and a tailored list of
+universities/scholarships internationally and in Pakistan. To unlock the dream universities'
+admissions requirements and deadlines.
+• Tutoring Marketplace – Commission on booked sessions.
+• School Partnerships – Bulk licensing of premium dashboards.
+
+Go-to-Market Strategy
+Phase 1: Pilot with 20–30 schools in major cities.
+Phase 2: Direct-to-student campaigns via TikTok, Instagram, and YouTube.
+Phase 3: Onboard tutors/test prep academies.
+Phase 4: Expand to Tier 2 cities and add international universities.
+Impact
+Manzil equalizes access to guidance across socioeconomic groups, helps students pursue
+aligned degrees, and strengthens Pakistan’s talent pipeline. It positions Pakistan as a
+launchpad for globally scalable EdTech innovation.
+
+TEACHER VERSIONS (THE “MULTIPLIER
+EFFECT”)
+Create teacher forms for your tests.
+How:
+Make short versions where teachers rate:
+● A student’s curiosity
+● Collaboration
+● Discipline
+● Creativity
+● Observed strengths
+
+Then compare teacher ratings to student test results.
+Why this matters:
+Every time teachers use Manzil, your data gets stronger —and schools become dependent on
+your framework.
+This is how you become part of the education system, not just an app.
+
+🌙
+
+3. PARENT VERSIONS (THE “ECOSYSTEM
+LOCK-IN”)
+Parents LOVE summaries.
+Schools love tools that bring parents on board.
+
+Investors love products that touch multiple stakeholders.
+How:
+Give parents:
+● A simplified values + strengths quiz
+● A report showing where their expectations match or clash with their child
+
+Then enable:
+“Parent–Student Fit Report”
+Like Spotify Blend, but for academic alignment.
+Why it’s IP:
+No one in Pakistan has this tri-layer data:
+Student + Teacher + Parent.
+This triangulated dataset becomes your competitive moat.
+
+🌱
+
+4. ANNUAL UPDATES (THE “LIVING
+ENGINE”)
+A psychometric test that never updates dies.
+Your advantage?
+Pakistan’s job market is changing faster than the West's.
+How:
+Every year:
+
+● Analyse aggregate Manzil data
+● Identify new patterns
+● Adjust scoring weights
+● Add emerging fields (AI, fintech, climate science, etc.)
+
+Why does it become IP:
+Your model becomes tuned to Pakistani + Global South norms.
+This dataset cannot be copied by LinkedIn, Coursera, or any foreign player.
+This is how you become the “local authority.”
+
+● Student Dashboard:
+○ Career cluster, scores, top universities, recommended tutors
+● School Dashboard:
+○ Cohort analytics, strengths/weakness heatmaps
+● Parent Dashboard:
+○ Alignment report, suggestions for supporting their child
+● Analytics:
+○ Aggregate insights, emerging trends, predictive success tracking
+
+Gamified Assessments
+
+Test 1: Holland RIASEC Test
+The Holland Code, also known as Holland Occupational Themes (RIASEC), is a theory of
+career choice and vocational interests developed by John L. Holland, an American psychologist,
+in the late 1950s. The theory suggests that people's career choices are influenced by their
+personality types and that certain personality types are more likely to be attracted to specific
+career fields.
+
+Free Career Quiz - Find Your Holland Code & Discover the Right Job for You
+R Realistic/Building (8 items)
+I like building or fixing things with my hands.
+I enjoy using tools, machines, or equipment.
+I prefer working outdoors rather than in an office.
+I enjoy tasks that allow me to move around and stay active.
+I enjoy figuring out how physical things work.
+I enjoy practical, hands-on problem-solving.
+I enjoy repairing or assembling objects.
+I prefer doing rather than talking.
+I Investigative/Thinking (8 items)
+I enjoy solving puzzles or complex problems.
+I like doing experiments or analysing information.
+I enjoy learning how things work scientifically.
+I like exploring ideas and researching answers.
+I enjoy working with data, numbers, or evidence.
+I like trying to understand why things happen.
+I enjoy reading or studying topics deeply.
+I like tasks that require thinking more than doing.
+
+An Artistic/Creating (8 items)
+I enjoy drawing, writing, designing, and creating things.
+I like expressing myself through art, music, or stories.
+I enjoy imagining new ideas or original concepts.
+I prefer unstructured, open-ended tasks.
+I enjoy performing — singing, acting, dancing, etc.
+I like activities that allow creativity and freedom.
+I enjoy creating visually appealing things.
+I prefer tasks with multiple possible outcomes.
+S Social/Helping (8 items)
+I enjoy helping people solve personal or academic problems.
+I like teaching, tutoring, or mentoring others.
+I enjoy working with people rather than alone.
+I like comforting or supporting others when they’re stressed.
+I enjoy collaborating in teams.
+I like making people feel heard and understood.
+I enjoy activities that improve others' lives.
+I prefer jobs involving communication and care.
+E Enterprising/Persuading (8 items)
+I enjoy leading people or taking charge of group activities.
+I like persuading others or presenting ideas.
+I enjoy starting new projects or initiatives.
+I like making decisions and setting plans.
+I enjoy organising people to achieve a goal.
+I like taking risks to achieve something bigger.
+I enjoy negotiating or debating.
+I like influencing others’ opinions.
+C Conventional/Organising (8 items)
+I enjoy organising information or keeping records.
+I like working with schedules, checklists, or systems.
+I enjoy completing tasks with clear rules.
+I like arranging, filing, or sorting things.
+I enjoy working with numbers, charts, or spreadsheets.
+I prefer structured, predictable environments.
+I enjoy following procedures carefully.
+I like tasks that involve accuracy and attention to detail.
+Only the starting point, as it does not factor in skills, values, goals, and the current job market.
+Combining multiple career assessments and guidance from career professionals can provide a
+more comprehensive understanding of suitable career options and help individuals make
+well-informed decisions about their future.
+
+Test 2: Personal Values Assessment (Based on Schwartz’s Theory)
+Focus: Core values for life + work
+What it measures:
+From Schwartz’s 10-value model
+
+Personal values survey - Schwartz and Boehnke (2004)
+The following are 30 short descriptions. Please use the scale to describe how similar each
+description is to yourself:
+
+5 - Exactly like me
+4 - Somewhat like me
+3 - Neither like me nor unlike me
+2 - Somewhat unlike me
+1 - Does not describe me at all
+
+1. I love to try new and exciting things ____ 5
+2. Helping others is the most important thing ____4
+3. I believe in fighting for equality ___5
+4. It is important to be successful ___4
+5. I think it is important to follow the rules ____2
+6. I value my creativity and individuality ____5
+7. If it feels good, do it ___5
+8. Tradition is my foundation ____1
+9. I aspire to be powerful ____5
+10. I like routine and dislike the unexpected ____1
+11. I usually do what others tell me ____3
+12. I like to stick up for the ‘underdog’ ____4
+
+13. I seek out pleasure in life ____5
+14. I like to tell others what to do ____3
+15. Caring for others is one of the most important things in life ____4
+16. I crave novelty ____5
+17. I hold to my core values no matter what ____3
+18. Rituals are important to me ____5
+19. Achieving my goals is one of the greatest joys in life ____1
+20. I crave a predictable life ____1
+21. I like to feel a rush ____5
+22. I enjoy being in charge of a situation ____4
+23. It helps me to know what to expect ____3
+24. The highest goal is in serving humanity ____3
+25. Doing things as they have always been done is more important
+than changing things ____1
+26. It is important for me to feel authentic to who I really am ____2
+27. It makes sense to seek out pleasure and avoid pain ____5
+28. All people are fundamentally equal ____3
+29. Things go more smoothly when people follow established rules ____5
+30. Getting what I want in life is among my most important values ____5
+
+Scoring key:
+Stimulation: 1, 16, 21 ____ 15
+Benevolence: 2, 15, 24 _11
+Universalism: 3, 12, 28 __12
+Achievement: 4, 19, 30 _10
+Conformity: 5, 11, 29 _10
+Self-Direction: 6, 17, 26 __10
+Hedonism: 7, 13, 27 __15
+Tradition: 8, 18, 25 _7
+Power: 9, 14, 22 ____12
+Security: 10, 20, 23 __5
+
+Test 3: Big 5 personality test
+The Big 5 personality test helps you learn more about your main personality traits. The Big 5
+traits include openness, conscientiousness, extraversion, agreeableness, and
+neuroticism.
+1. Openness
+People who are high in this personality trait also tend to be more adventurous and creative.
+Conversely, people low in this personality trait are often much more traditional and may struggle
+with abstract thinking.
+High
+Very creative
+Open to trying new things
+Focused on tackling new challenges
+
+Happy to think about abstract concepts
+Low
+Dislikes change
+Does not enjoy new things
+Resists new ideas
+Not very imaginative
+Dislikes abstract or theoretical concepts
+2. Conscientiousness
+Conscientiousness is defined by high levels of thoughtfulness, good impulse control, and
+goal-directed behaviours.
+
+1 Highly conscientious people tend to be organised and mindful of
+details. They plan, consider how their behaviour affects others, and are conscious of deadlines.
+If a person scores low on this personality trait, it might mean they are less structured and
+organised. They may procrastinate when it comes to getting things done, sometimes missing
+deadlines completely.
+High
+Spends time preparing
+Finishes important tasks right away
+Pays attention to detail
+Enjoys having a set schedule
+Low
+Dislikes structure and schedules
+Makes messes and doesn't take care of things
+Fails to return things or put them back where they belong
+Procrastinates important tasks
+Fails to complete necessary or assigned tasks
+3. Extraversion
+People high in extraversion are outgoing and tend to gain energy in social situations. Being
+around others helps them feel energised and excited. People who are low in this personality trait
+(or introverted) tend to be more reserved. They have less energy in social settings, and social
+events can feel draining. Introverts often require a period of solitude and quiet to "recharge."
+High
+Enjoys being the centre of attention
+Likes to start conversations
+Enjoys meeting new people
+Has a wide social circle of friends and acquaintances
+Finds it easy to make new friends
+Feels energised when around other people
+Say things before thinking about them
+Low
+Prefers solitude
+Feels exhausted when having to socialise a lot
+
+Finds it difficult to start conversations
+Dislikes making small talk
+Carefully thinks things through before speaking
+Dislikes being the centre of attention
+4. Agreeableness
+This personality trait includes attributes such as trust, altruism, kindness, affection, and other
+prosocial behaviours.
+
+1 People who are high in agreeableness tend to be more cooperative,e
+while those low in this personality trait tend to be more competitive and sometimes even
+manipulative.
+High
+Has a great deal of interest in other people
+Cares about others
+Feels empathy and concern for other people
+Enjoys helping and contributing to the happiness of other people
+Assists others who need help
+Low
+Takes little interest in others
+Doesn't care about how other people feel
+Has little interest in other people's problems
+Insults and belittles others
+Manipulates others to get what they want
+5. Neuroticism
+Neuroticism is a personality trait characterised by sadness, moodiness, and emotional
+instability.
+1 This trait is generally defined as a negative personality trait that can have detrimental
+effects on a person's life and well-being. Individuals who are high in neuroticism tend to
+experience mood swings, anxiety, irritability, and sadness.
+People who are low in this personality trait tend to be more stable and emotionally resilient.
+High
+Experiences a lot of stress
+Worries about many different things
+Gets upset easily
+Experiences dramatic shifts in mood
+Feels anxious
+Struggles to bounce back after stressful events
+Low
+Emotionally stable
+Deals well with stress
+Rarely feels sad or depressed
+Doesn't worry much
+Is very relaxed
+
+5 - Exactly like me
+4 - Somewhat like me
+3 - Neither like me nor unlike me
+2 - Somewhat unlike me
+1 - Does not describe me at all
+
+Extraversion (E)
+1. I am the life of the party 4
+2. I feel comfortable around people 3
+3. I talk to a lot of different people at social events 2
+4. I don’t like to draw attention to myself 1
+5. I prefer to keep in the background 3
+6. I am quiet around strangers 5
+7. I feel little concern for others 3
+8. I am not interested in other people’s problems 5
+9. I insult people sometimes 5
+10. . I am not really interested in others' 5
+11. . I am interested in people 3
+12. Isympathise with others’ feelings 3
+13. I make people feel at ease 3
+14. I take time out for others 2
+15. I am always prepared for things 3
+16. I follow a schedule 1
+17. I pay attention to details 5
+18. I like order 3
+19. I leave my belongings around 5
+20. I make a mess of things 3
+21. I often forget to put things back in their proper place 3
+22. I shrink from duties 3
+23. I get stressed out easily 5
+24. I get irritated easily 5
+25. I have frequent mood swings 5
+26. I am relaxed most of the time 1
+27. I rarely feel blue/upset 1
+28. I don’t worry about things 2
+29. I have difficulty understanding abstract ideas 1
+30. I am not interested in abstract ideas and theoretical concepts 1
+31. I do not have a good imagination 1
+32. I like tackling new challenges 4
+33. I have a vivid imagination 5
+34. I like trying new things 5
+
+Scoring key:
+High Extraversion: 1,2,3: score = 9
+
+Low Extraversion: 4,5,6,score = 9
+Low Agreeableness: 7,8,9,10 = 13
+High Agreeableness: 11,12,13,14 = 11
+High Conscientiousness: 15, 16, 17, 18 = 12
+Low Conscientiousness: 19, 20, 21, 22 = 14
+High Neuroticism: 23, 24, 25 = 15
+Low Neuroticism: 26, 27, 28 = 4
+High Openness: 32, 33, 34 = 14
+Low Openness: 29, 30, 31 = 3
+
+Your signature looks like this:
+Enterprising + Social + Organizing
+High Openness + Very High Conscientiousness + Very High Agreeableness
+Top Values: Creativity/Challenge + Impact + People
+This is the profile of someone who leads with vision, works with purpose, and thrives in
+people–systems–ideas environments.
+Here are your final results:
+🔥 Top 3 Majors (Strongest Fit)
+These degrees fit how you think, what you care about, and how you work with people.
+1⃣Economics / Political Economy
+Overall Fit Score: 92 / 100
+Why this fits you:
+● You like influence, strategy, and understanding how systems work.
+● You enjoy solving real-world problems, not just memorising theory.
+● You value independence, excitement, and keeping your options open.
+
+What this major gives you:
+● Strong analytical skills
+● High flexibility for future careers
+● A reputation that travels well across countries and industries
+
+Why you won’t find it boring:
+It’s about decisions, incentives, power, and money — not just numbers.
+
+2⃣Public Policy / Public Administration
+Overall Fit Score: 90 / 100
+Why this fits you:
+● You care about big-picture issues and fairness.
+● You’re comfortable with responsibility and leadership.
+● You like structured problem-solving with real impact.
+
+What this major gives you:
+● Understanding how decisions are made in governments and institutions
+● Strong communication and leadership skills
+● Clear pathways into policy, NGOs, and international work
+
+Why you won’t find it boring:
+It’s debates, strategy, real problems — not just paperwork.
+
+3⃣Business Administration / Management
+Overall Fit Score: 88 / 100
+Why this fits you:
+● You enjoy leading, persuading, and making things happen.
+● You prefer practical skills over abstract theory.
+● You like fast-paced environments and variety.
+
+What this major gives you:
+● Leadership and decision-making skills
+● Exposure to multiple fields (strategy, marketing, operations)
+● A strong base for consulting or entrepreneurship
+
+Why you won’t find it boring:
+You’ll work on real projects, real teams, and real decisions.
+
+⭐ Good Fit Majors (Still Strong, Just Not Top 3)
+These match you well — just not as tightly as the top three.
+
+4⃣Psychology (Organisational / Social Focus)
+Fit Score: 81 / 100
+Good fit because:
+● You’re curious about how people think and behave.
+● You enjoy understanding motivations and group dynamics.
+
+Why it’s slightly lower:
+● Less focus on leadership and influence
+● Often requires graduate study for higher-level roles.
+
+5⃣International Relations / Global Studies
+Fit Score: 79 / 100
+Good fit because:
+● You think globally and enjoy complex issues.
+● You like big ideas and discussions.
+
+Why it’s slightly lower:
+● More theory-heavy
+● Less direct skill-building unless paired with economics or policy
+
+6⃣Communications / Media / Strategic Communication
+Fit Score: 77 / 100
+
+Good fit because:
+● You’re persuasive and expressive.
+● You understand the power of messaging.
+
+Why it’s slightly lower:
+● Less structured
+● Weaker alignment with your analytical strengths
+
+🚫 Majors That Are NOT a Good Fit (With Reasons)
+These don’t align well with your interests or work style — choosing them may feel frustrating
+over time.
+
+❌ Pure Engineering (Mechanical, Electrical, Civil)
+Why not:
+● Highly rigid and technical
+● Limited people interaction
+● Low alignment with your creative and persuasive strengths
+
+❌ Accounting / Auditing
+Why not:
+● Highly repetitive and rule-based
+● Low stimulation
+● Minimal leadership or creative freedom
+
+❌ Pure Hard Sciences (Physics, Chemistry)
+Why not:
+● Heavy focus on lab work and theory
+
+● Limited connection to people or real-world decision-making
+● Lower fit with your values and interests
+●
+Why?
+You like leading, solving real-world problems, and creating impact — not sitting silently in labs.
+
+🔥 Your Top 3 Careers (Strongest Match — 90/100 and above)
+These hit your top values and your unique personality fingerprint.
+1. Policy & Program Manager (Education / Development / Social Impact)
+Why you score highest here:
+Uses your leadership + social impact values.
+High conscientiousness = strong operational execution.
+High openness = strategic thinking + innovation.
+High agreeableness = collaborative stakeholder work.
+Score: 94/100
+This is the career where your whole personality sings.
+2. Management Consultant (Social Impact, EdTech, Human Capital)
+Why it's a perfect match:
+Enterprising + social = consulting sweet spot.
+You’re structured, analytical, people-savvy — a consultant’s trifecta.
+High stimulation value = loves varied, high-challenge work.
+High universalism = drawn to purpose-driven problem-solving.
+Score: 92/100
+3. Organisational Development / Learning & Development Specialist
+Why you fit:
+Empathy + structure = reading people + fixing systems.
+
+High openness = designing workshops, strategies, and change processes.
+Benevolence/universalism = creating environments where humans thrive.
+Score: 91/100
+⭐ Your Top 10 Careers (Ranked)
+These all fit your Holland type + your values + your personality.
+4. Social Innovation / Social Enterprise Leadership
+Score: 89/100
+Transforming communities with creative leadership = your zone.
+5. Program Director (Non-profits, Think Tanks, Foundations)
+Score: 88/100
+High order, high empathy, high complexity.
+6. EdTech Product Manager / Education Strategist
+Score: 87/100
+Blends tech + people + creativity + systems = a direct match to your background.
+7. Public Policy Analyst (Education, Gender, Tech, Development)
+Score: 86/100
+You like abstraction and impact → policy is the bridge.
+8. Human-Centred Design / Service Design Consultant
+Score: 85/100
+High openness + high empathy + high structure = excellent fit.
+9. Research & Evaluation Lead (Education / Social Sector)
+Score: 84/100
+Ideal for your analytic rigour + desire for impact.
+10. Project Manager (Global Development, International Orgs)
+Score: 83/100
+Your conscientiousness + social values make you naturally strong here.
+
+Code
+
+Step 1: Interest Layer (RIASEC)
+The student takes the RIASEC test.
+They get a Top 2 interest types, e.g., Investigative + Artistic.
+This tells us: “These are the types of careers you naturally enjoy.”
+Example:
+Investigative + Artistic → Research, Design, Data Science, Media
+Think of it as the first filter: only keep careers that match their natural interests.
+Step 2: Values Layer
+The student takes the Values test.
+You check what drives them: Stability? Creativity? Growth? Money? Impact?
+Filter and rank careers from Step 1 based on these values.
+Example:
+Student is high on Creativity and Growth → push design, research, STEM
+Student is high on Stability and Impact → push teaching, accounting, law
+This is the second filter: “Careers that match what matters most to you.”
+Step 3: Personality Layer
+Student takes Mini Big Five (personality) test.
+Each career has a “personality fingerprint” — what traits usually succeed in that career.
+Compare student traits → score a match percentage.
+Example:
+CS → needs high openness + conscientiousness
+Design → high openness + extraversion
+Teaching → high agreeableness + social skills
+This is the final filter / fine-tuning: “Of the careers you like and that match your values, which
+ones suit your personality best?”
+Step 4: Combine Scores and Rank
+
+Take the interest match, values match, and personality match.
+Give each a weight (e.g., Interest 50%, Values 30%, Personality 20%).
+Multiply scores, sum them → final score.
+Sort careers by final score → top 5–10 careers = student’s recommended paths.
+
+Tab 5
+
+const careers = [
+{
+id: "computer-science",
+name: "Computer Science",
+description: "Study of computation, algorithms, and building software systems. Combines
+logical thinking with creative problem solving.",
+riasecMatch: ["I", "R", "C"],
+valueMatch: ["Self-Direction", "Openness to Change"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Programming", "Logical thinking", "Problem solving", "Systems design"],
+careers: ["Software Engineer", "Data Scientist", "AI Researcher", "Systems Architect"],
+whyFits: [
+"You enjoy building things and solving complex puzzles",
+"You like working independently with clear, logical systems",
+"You value innovation and staying at the cutting edge"
+],
+whatGives: [
+"High earning potential and job security",
+"Remote work flexibility",
+"Ability to create products used by millions"
+],
+whyNotBoring: "You're literally building the future and solving problems that didn't exist
+yesterday.",
+whyNot: [
+"Constantly need to learn new technologies",
+"Can involve long hours debugging frustrating problems"
+]
+},
+{
+id: "medicine",
+name: "Medicine",
+description: "Science and practice of diagnosing, treating, and preventing disease. Combines
+scientific knowledge with direct human impact.",
+riasecMatch: ["I", "S", "R"],
+valueMatch: ["Benevolence", "Self-Direction"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+
+extraversion: "medium",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Critical thinking", "Communication", "Empathy", "Decision making under pressure"],
+careers: ["Physician", "Surgeon", "Psychiatrist", "Medical Researcher"],
+whyFits: [
+"You want to directly help people and save lives",
+"You're fascinated by how the human body works",
+"You can handle high-pressure situations and long training"
+],
+whatGives: [
+"Deep respect and social status",
+"Job security and high income",
+"Profound sense of purpose"
+],
+whyNotBoring: "Every patient is different, and you're literally holding lives in your hands.",
+whyNot: [
+"10+ years of demanding education and training",
+"Emotionally draining and long work hours"
+]
+},
+{
+id: "mechanical-engineering",
+name: "Mechanical Engineering",
+description: "Design and build machines, engines, and mechanical systems. Combines
+physics with practical problem solving.",
+riasecMatch: ["R", "I", "C"],
+valueMatch: ["Self-Direction", "Achievement"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["CAD design", "Physics application", "Problem solving", "Project management"],
+careers: ["Mechanical Engineer", "Aerospace Engineer", "Automotive Engineer", "Robotics
+Engineer"],
+whyFits: [
+"You like understanding how things work and building them",
+"You enjoy hands-on problem solving with real-world constraints",
+"You want to see tangible results of your work"
+],
+
+whatGives: [
+"Versatile skills applicable across industries",
+"Good salary and job stability",
+"Satisfaction of creating physical products"
+],
+whyNotBoring: "From rockets to robots to renewable energy—you're building the physical
+future.",
+whyNot: [
+"Heavy math and physics requirements",
+"Can be repetitive in some corporate environments"
+]
+},
+{
+id: "psychology",
+name: "Psychology",
+description: "Scientific study of mind and behavior. Understanding why people think, feel, and
+act the way they do.",
+riasecMatch: ["I", "S", "A"],
+valueMatch: ["Benevolence", "Universalism"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "medium",
+extraversion: "medium",
+agreeableness: "high",
+neuroticism: "medium"
+},
+skills: ["Active listening", "Empathy", "Critical thinking", "Research methods"],
+careers: ["Clinical Psychologist", "Counselor", "UX Researcher", "Organizational
+Psychologist"],
+whyFits: [
+"You're endlessly curious about what makes people tick",
+"You want to help others improve their mental health",
+"You enjoy both science and human connection"
+],
+whatGives: [
+"Deep understanding of human nature",
+"Flexible career paths across many industries",
+"Meaningful impact on people's lives"
+],
+whyNotBoring: "The human mind is the most complex thing in the universe—you'll never run
+out of mysteries.",
+whyNot: [
+"Requires graduate school for most clinical careers",
+"Can be emotionally taxing"
+
+]
+},
+{
+id: "business-administration",
+name: "Business Administration",
+description: "Study of managing organizations, operations, and resources. Combines strategy
+with practical leadership.",
+riasecMatch: ["E", "C", "S"],
+valueMatch: ["Achievement", "Power"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "high",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Leadership", "Strategic thinking", "Communication", "Financial literacy"],
+careers: ["Business Manager", "Entrepreneur", "Management Consultant", "Operations
+Manager"],
+whyFits: [
+"You like leading teams and driving results",
+"You want broad knowledge applicable to any industry",
+"You're ambitious about climbing the corporate ladder"
+],
+whatGives: [
+"Wide range of career options",
+"Strong networking opportunities",
+"Path to executive leadership"
+],
+whyNotBoring: "You're orchestrating people, money, and strategy to win in competitive
+markets.",
+whyNot: [
+"Can be generalist without deep expertise",
+"Oversaturated field in some regions"
+]
+},
+{
+id: "architecture",
+name: "Architecture",
+description: "Design of buildings and spaces where people live and work. Blends art,
+engineering, and human psychology.",
+riasecMatch: ["A", "R", "I"],
+valueMatch: ["Self-Direction", "Achievement"],
+personalityMatch: {
+
+openness: "high",
+conscientiousness: "high",
+extraversion: "medium",
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["3D visualization", "Technical drawing", "Creative problem solving", "Project
+management"],
+careers: ["Architect", "Urban Planner", "Interior Designer", "Landscape Architect"],
+whyFits: [
+"You're both creative and analytical",
+"You want to shape the physical environment",
+"You enjoy seeing your designs become reality"
+],
+whatGives: [
+"Lasting legacy through built work",
+"Blend of art and science",
+"Respected profession with social impact"
+],
+whyNotBoring: "Your creations will outlive you and shape how people experience space
+daily.",
+whyNot: [
+"Long education path with licensing requirements",
+"Demanding clients and tight deadlines"
+]
+},
+{
+id: "nursing",
+name: "Nursing",
+description: "Direct patient care and health advocacy. Combines medical knowledge with
+compassionate human interaction.",
+riasecMatch: ["S", "R", "I"],
+valueMatch: ["Benevolence", "Security"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "medium",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Patient care", "Medical procedures", "Communication", "Crisis management"],
+careers: ["Registered Nurse", "Nurse Practitioner", "Nurse Anesthetist", "Clinical Nurse
+Specialist"],
+whyFits: [
+
+"You want hands-on work helping people daily",
+"You thrive in fast-paced, dynamic environments",
+"You value job security and flexibility"
+],
+whatGives: [
+"High demand with excellent job security",
+"Flexible schedules and locations",
+"Direct, meaningful impact on patients"
+],
+whyNotBoring: "No two shifts are the same, and you're often the person patients trust most.",
+whyNot: [
+"Physically and emotionally demanding",
+"Shift work including nights and weekends"
+]
+},
+{
+id: "electrical-engineering",
+name: "Electrical Engineering",
+description: "Study of electricity, electronics, and electromagnetism. Design circuits, systems,
+and devices that power modern life.",
+riasecMatch: ["I", "R", "C"],
+valueMatch: ["Self-Direction", "Achievement"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Circuit design", "Problem solving", "Programming", "Systems thinking"],
+careers: ["Electrical Engineer", "Electronics Engineer", "Power Systems Engineer", "Control
+Systems Engineer"],
+whyFits: [
+"You're fascinated by how electronics work",
+"You enjoy both theory and practical application",
+"You want to work on cutting-edge technology"
+],
+whatGives: [
+"High salary and job security",
+"Work on everything from phones to power grids",
+"Foundation for many tech careers"
+],
+whyNotBoring: "From microchips to renewable energy grids—you're powering the future.",
+whyNot: [
+
+"Heavy math and abstract concepts",
+"Requires precision and attention to detail"
+]
+},
+{
+id: "marketing",
+name: "Marketing",
+description: "Understanding consumer behavior and promoting products or services.
+Combines psychology, creativity, and data analysis.",
+riasecMatch: ["E", "A", "C"],
+valueMatch: ["Achievement", "Stimulation"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "medium",
+extraversion: "high",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Communication", "Data analysis", "Creativity", "Strategic thinking"],
+careers: ["Marketing Manager", "Brand Strategist", "Digital Marketer", "Market Researcher"],
+whyFits: [
+"You're creative but also data-driven",
+"You enjoy persuasion and storytelling",
+"You like fast-paced, trendy work"
+],
+whatGives: [
+"Dynamic career with constant change",
+"Blend of creativity and analytics",
+"See direct impact of your campaigns"
+],
+whyNotBoring: "You're shaping culture, launching trends, and influencing millions of buying
+decisions.",
+whyNot: [
+"Can be superficial or manipulative feeling",
+"Pressure to constantly deliver results"
+]
+},
+{
+id: "law",
+name: "Law",
+description: "Study and practice of legal systems and advocacy. Combines analytical
+reasoning with persuasive argumentation.",
+riasecMatch: ["E", "I", "C"],
+valueMatch: ["Power", "Achievement"],
+
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "high",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Analytical thinking", "Persuasion", "Research", "Written communication"],
+careers: ["Lawyer", "Judge", "Legal Consultant", "Corporate Counsel"],
+whyFits: [
+"You love debate and winning arguments",
+"You care about justice and rights",
+"You enjoy complex problem solving"
+],
+whatGives: [
+"High prestige and earning potential",
+"Intellectual challenge",
+"Ability to influence society"
+],
+whyNotBoring: "Every case is a puzzle where you're fighting for something that matters.",
+whyNot: [
+"Extremely long hours and high stress",
+"Expensive education with heavy debt"
+]
+},
+{
+id: "graphic-design",
+name: "Graphic Design",
+description: "Visual communication through typography, imagery, and layout. Combines
+artistic skill with strategic thinking.",
+riasecMatch: ["A", "E", "R"],
+valueMatch: ["Self-Direction", "Stimulation"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "medium",
+extraversion: "medium",
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["Adobe Creative Suite", "Visual composition", "Typography", "Brand thinking"],
+careers: ["Graphic Designer", "Art Director", "UI Designer", "Brand Designer"],
+whyFits: [
+"You're visually creative and detail-oriented",
+"You want to see your work in the world",
+
+"You enjoy solving problems through design"
+],
+whatGives: [
+"Tangible portfolio of creative work",
+"Freelance flexibility",
+"Influence visual culture"
+],
+whyNotBoring: "Your designs shape how people see brands, products, and ideas every day.",
+whyNot: [
+"Competitive field with subjective feedback",
+"Tight deadlines and demanding clients"
+]
+},
+{
+id: "chemistry",
+name: "Chemistry",
+description: "Study of matter, its properties, and transformations. Understanding the
+molecular world and creating new substances.",
+riasecMatch: ["I", "R", "C"],
+valueMatch: ["Self-Direction", "Achievement"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Laboratory techniques", "Analytical thinking", "Attention to detail", "Problem solving"],
+careers: ["Chemist", "Chemical Engineer", "Pharmaceutical Scientist", "Materials Scientist"],
+whyFits: [
+"You're curious about how substances work at molecular level",
+"You enjoy lab work and experimentation",
+"You want to discover new materials or medicines"
+],
+whatGives: [
+"Foundation for many scientific careers",
+"Work in cutting-edge research",
+"Contribute to medical and technological advances"
+],
+whyNotBoring: "From new medicines to sustainable materials—you're literally creating things
+that never existed.",
+whyNot: [
+"Requires advanced degrees for research positions",
+"Lab work can be repetitive"
+
+]
+},
+{
+id: "civil-engineering",
+name: "Civil Engineering",
+description: "Design and construction of infrastructure like roads, bridges, and buildings.
+Shaping the physical world we live in.",
+riasecMatch: ["R", "I", "C"],
+valueMatch: ["Achievement", "Security"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "medium",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Structural analysis", "Project management", "CAD software", "Problem solving"],
+careers: ["Civil Engineer", "Structural Engineer", "Transportation Engineer", "Construction
+Manager"],
+whyFits: [
+"You want to build infrastructure that serves communities",
+"You enjoy practical, visible results",
+"You like working on large-scale projects"
+],
+whatGives: [
+"Stable career with consistent demand",
+"See your projects used by thousands",
+"Work outdoors and in offices"
+],
+whyNotBoring: "Bridges, tunnels, skyscrapers—you're building monuments that last
+generations.",
+whyNot: [
+"Projects move slowly with lots of regulations",
+"Liability and safety concerns"
+]
+},
+{
+id: "journalism",
+name: "Journalism",
+description: "Investigating and reporting news and stories. Informing the public and holding
+power accountable.",
+riasecMatch: ["I", "A", "E"],
+valueMatch: ["Universalism", "Self-Direction"],
+personalityMatch: {
+
+openness: "high",
+conscientiousness: "medium",
+extraversion: "high",
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["Writing", "Investigation", "Interviewing", "Critical thinking"],
+careers: ["Reporter", "Editor", "Investigative Journalist", "Broadcast Journalist"],
+whyFits: [
+"You're curious about everything and love asking questions",
+"You care about truth and transparency",
+"You write well under pressure"
+],
+whatGives: [
+"Variety and constant learning",
+"Influence public discourse",
+"Meet fascinating people"
+],
+whyNotBoring: "Every day brings new stories, and you're uncovering truths that matter.",
+whyNot: [
+"Industry instability and low starting pay",
+"Stressful deadlines and irregular hours"
+]
+},
+{
+id: "biology",
+name: "Biology",
+description: "Study of living organisms and life processes. Understanding everything from
+cells to ecosystems.",
+riasecMatch: ["I", "R", "S"],
+valueMatch: ["Self-Direction", "Universalism"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Scientific method", "Laboratory skills", "Data analysis", "Critical thinking"],
+careers: ["Biologist", "Research Scientist", "Biotech Specialist", "Environmental Consultant"],
+whyFits: [
+"You're fascinated by living systems",
+"You enjoy both fieldwork and lab research",
+"You want to contribute to medical or environmental advances"
+
+],
+whatGives: [
+"Diverse career paths from medicine to conservation",
+"Contribute to solving global challenges",
+"Constant discoveries in the field"
+],
+whyNotBoring: "Life is endlessly complex—from gene editing to saving species, you're
+exploring the frontier.",
+whyNot: [
+"Often requires graduate education",
+"Research positions are competitive"
+]
+},
+{
+id: "finance",
+name: "Finance",
+description: "Managing money, investments, and financial systems. Combines quantitative
+analysis with strategic decision-making.",
+riasecMatch: ["C", "E", "I"],
+valueMatch: ["Achievement", "Power"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "high",
+agreeableness: "low",
+neuroticism: "low"
+},
+skills: ["Financial modeling", "Analytical thinking", "Risk assessment", "Communication"],
+careers: ["Financial Analyst", "Investment Banker", "Portfolio Manager", "CFO"],
+whyFits: [
+"You're good with numbers and strategic thinking",
+"You're motivated by high compensation",
+"You thrive in competitive environments"
+],
+whatGives: [
+"High earning potential",
+"Fast-paced, dynamic work",
+"Clear performance metrics"
+],
+whyNotBoring: "Markets move every second, and you're playing a high-stakes game with real
+money.",
+whyNot: [
+"Extremely long hours especially early career",
+"High stress and intense competition"
+
+]
+},
+{
+id: "education",
+name: "Education / Teaching",
+description: "Facilitating learning and development in students. Shaping minds and inspiring
+the next generation.",
+riasecMatch: ["S", "A", "C"],
+valueMatch: ["Benevolence", "Security"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "high",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Communication", "Patience", "Creativity", "Classroom management"],
+careers: ["Teacher", "Principal", "Curriculum Developer", "Educational Consultant"],
+whyFits: [
+"You love helping others learn and grow",
+"You're patient and enjoy working with people",
+"You want stable, meaningful work"
+],
+whatGives: [
+"Direct impact on students' lives",
+"Job security and benefits",
+"Summers off and consistent schedule"
+],
+whyNotBoring: "You're shaping the future by inspiring curious minds every single day.",
+whyNot: [
+"Lower pay compared to other professions",
+"Dealing with difficult students and parents"
+]
+},
+{
+id: "music",
+name: "Music Performance / Composition",
+description: "Creating, performing, or producing music. Expressing emotion and ideas
+through sound.",
+riasecMatch: ["A", "E", "S"],
+valueMatch: ["Self-Direction", "Stimulation"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "medium",
+
+extraversion: "medium",
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["Musical technique", "Creativity", "Practice discipline", "Performance"],
+careers: ["Musician", "Music Producer", "Composer", "Music Teacher"],
+whyFits: [
+"Music is your passion and form of expression",
+"You're willing to practice relentlessly",
+"You want to create emotional experiences"
+],
+whatGives: [
+"Doing what you love as a career",
+"Creative freedom",
+"Connecting with audiences emotionally"
+],
+whyNotBoring: "You're creating art that moves people and potentially reaching millions.",
+whyNot: [
+"Very competitive with unstable income",
+"Requires immense practice and sacrifice"
+]
+},
+{
+id: "data-science",
+name: "Data Science",
+description: "Extracting insights from data using statistics, programming, and machine
+learning. Turning data into decisions.",
+riasecMatch: ["I", "C", "E"],
+valueMatch: ["Achievement", "Self-Direction"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Programming", "Statistics", "Machine learning", "Data visualization"],
+careers: ["Data Scientist", "Machine Learning Engineer", "Analytics Manager", "AI
+Researcher"],
+whyFits: [
+"You love finding patterns in complex information",
+"You're comfortable with math and coding",
+"You want to solve problems with data"
+],
+
+whatGives: [
+"Extremely high demand and salary",
+"Work across all industries",
+"Shape business decisions with insights"
+],
+whyNotBoring: "You're the detective who finds billion-dollar insights hidden in the numbers.",
+whyNot: [
+"Requires strong quantitative background",
+"Can involve cleaning messy data constantly"
+]
+},
+{
+id: "environmental-science",
+name: "Environmental Science",
+description: "Study of environmental problems and sustainable solutions. Protecting
+ecosystems and addressing climate change.",
+riasecMatch: ["I", "R", "S"],
+valueMatch: ["Universalism", "Self-Direction"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "medium",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Research methods", "Data analysis", "Field work", "Systems thinking"],
+careers: ["Environmental Scientist", "Conservation Biologist", "Sustainability Consultant",
+"Environmental Engineer"],
+whyFits: [
+"You care deeply about the planet's future",
+"You enjoy both fieldwork and research",
+"You want to address pressing global challenges"
+],
+whatGives: [
+"Work on critical issues like climate change",
+"Outdoor work in natural settings",
+"Growing field with increasing importance"
+],
+whyNotBoring: "You're literally fighting to save the planet and future generations.",
+whyNot: [
+"Can be underfunded compared to corporate sectors",
+"Slow bureaucratic processes"
+]
+},
+
+{
+id: "philosophy",
+name: "Philosophy",
+description: "Study of fundamental questions about existence, knowledge, values, and
+reason. Training in deep analytical thinking.",
+riasecMatch: ["I", "A", "S"],
+valueMatch: ["Self-Direction", "Universalism"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "medium",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["Critical thinking", "Argumentation", "Writing", "Abstract reasoning"],
+careers: ["Professor", "Writer", "Consultant", "Policy Analyst"],
+whyFits: [
+"You love questioning everything and deep thinking",
+"You enjoy reading and rigorous arguments",
+"You want to understand fundamental truths"
+],
+whatGives: [
+"Exceptional critical thinking skills",
+"Foundation for law, consulting, writing",
+"Intellectual fulfillment"
+],
+whyNotBoring: "You're grappling with the deepest questions humanity has ever asked.",
+whyNot: [
+"Limited direct career paths",
+"Often requires graduate school"
+]
+},
+{
+id: "physical-therapy",
+name: "Physical Therapy",
+description: "Helping people recover from injuries and improve movement. Combines medical
+knowledge with hands-on care.",
+riasecMatch: ["S", "R", "I"],
+valueMatch: ["Benevolence", "Security"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "high",
+agreeableness: "high",
+
+neuroticism: "low"
+},
+skills: ["Anatomy knowledge", "Manual therapy", "Patient communication", "Exercise
+prescription"],
+careers: ["Physical Therapist", "Sports Therapist", "Rehabilitation Specialist", "Orthopedic
+Therapist"],
+whyFits: [
+"You want hands-on work helping people heal",
+"You're interested in human movement and anatomy",
+"You enjoy building relationships with patients"
+],
+whatGives: [
+"High job satisfaction and demand",
+"Good work-life balance",
+"See tangible patient progress"
+],
+whyNotBoring: "Every patient is a puzzle, and you're helping them reclaim their mobility and
+life.",
+whyNot: [
+"Physically demanding work",
+"Requires doctoral degree in most countries"
+]
+},
+{
+id: "aerospace-engineering",
+name: "Aerospace Engineering",
+description: "Design and development of aircraft and spacecraft. Engineering for flight and
+space exploration.",
+riasecMatch: ["R", "I", "C"],
+valueMatch: ["Achievement", "Self-Direction"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Aerodynamics", "CAD design", "Systems engineering", "Physics application"],
+careers: ["Aerospace Engineer", "Flight Systems Engineer", "Spacecraft Designer", "Aviation
+Consultant"],
+whyFits: [
+"You're fascinated by flight and space",
+"You want to work on cutting-edge technology",
+"You dream big about humanity's future"
+
+],
+whatGives: [
+"Work on rockets, planes, and spacecraft",
+"High salary and job prestige",
+"Push technological boundaries"
+],
+whyNotBoring: "You're literally working on technology that goes to space and breaks the
+sound barrier.",
+whyNot: [
+"Highly specialized with limited job locations",
+"Requires security clearances for many positions"
+]
+},
+{
+id: "social-work",
+name: "Social Work",
+description: "Helping individuals, families, and communities overcome challenges. Advocacy
+and support for vulnerable populations.",
+riasecMatch: ["S", "E", "A"],
+valueMatch: ["Benevolence", "Universalism"],
+personalityMatch: {
+openness: "medium",
+conscientiousness: "high",
+extraversion: "medium",
+agreeableness: "high",
+neuroticism: "low"
+},
+skills: ["Empathy", "Case management", "Crisis intervention", "Advocacy"],
+careers: ["Social Worker", "Counselor", "Case Manager", "Community Organizer"],
+whyFits: [
+"You're driven to help those in difficult situations",
+"You want to address systemic inequality",
+"You're emotionally resilient and empathetic"
+],
+whatGives: [
+"Profound sense of purpose",
+"Diverse work settings",
+"Direct impact on vulnerable people"
+],
+whyNotBoring: "You're changing lives and fighting injustice on the frontlines every day.",
+whyNot: [
+"Emotionally draining with vicarious trauma",
+"Lower pay relative to education required"
+]
+
+},
+{
+id: "accounting",
+name: "Accounting",
+description: "Recording, analyzing, and reporting financial information. The language of
+business.",
+riasecMatch: ["C", "E", "I"],
+valueMatch: ["Security", "Achievement"],
+personalityMatch: {
+openness: "low",
+conscientiousness: "high",
+extraversion: "low",
+agreeableness: "medium",
+neuroticism: "low"
+},
+skills: ["Attention to detail", "Financial analysis", "Tax knowledge", "Excel proficiency"],
+careers: ["Accountant", "Auditor", "Tax Consultant", "Financial Controller"],
+whyFits: [
+"You like order, accuracy, and clear rules",
+"You're good with numbers and details",
+"You want stable, predictable work"
+],
+whatGives: [
+"Excellent job security",
+"Clear career progression",
+"Work in every industry"
+],
+whyNotBoring: "You're the detective finding financial truth and keeping businesses honest.",
+whyNot: [
+"Can be repetitive and routine",
+"Stressful during tax season"
+]
+},
+{
+id: "culinary-arts",
+name: "Culinary Arts",
+description: "The art and science of cooking and food preparation. Creating delicious
+experiences for others.",
+riasecMatch: ["R", "A", "E"],
+valueMatch: ["Stimulation", "Self-Direction"],
+personalityMatch: {
+openness: "high",
+conscientiousness: "high",
+extraversion: "medium",
+
+agreeableness: "medium",
+neuroticism: "medium"
+},
+skills: ["Cooking techniques", "Creativity", "Time management", "Pressure handling"],
+careers: ["Chef", "Pastry Chef", "Restaurant Owner", "Food Stylist
+
+Marketing
+
+Manzil — Student Direction & Career Clarity Program
+A structured guidance pilot for senior students
+
+The Problem Schools Face
+Many capable students struggle to choose subjects and majors that truly fit them.
+Guidance often happens late, under pressure, and relies heavily on subjective advice.
+This leads to:
+• Students changing majors or losing motivation
+• Parent anxiety and dissatisfaction
+• Counselors managing repeated crises instead of proactive guidance
+Schools are increasingly expected to support students not just academically, but directionally.
+What Manzil Is
+Manzil is a web-based student guidance tool that helps learners understand:
+• What they naturally enjoy (interests)
+• What motivates their choices (values)
+• How they operate best (personality)
+Using well-established psychological frameworks (RIASEC, Schwartz Values, Big Five), Manzil
+provides clear, age-appropriate guidance in language students understand.
+It does not replace counseling, it supports it.
+
+What Makes Manzil Different?
+• Structured, not subjective
+Results are grounded in validated models, not guesswork.
+• Student-friendly
+Explanations are designed for teenagers, not psychologists.
+• Live & interactive
+Students see insights emerge as they complete the assessment.
+• Transparent for parents
+Optional parent-view explains the logic behind recommendations.
+
+Value for the School
+1. Reduces Risk of Poor Subject & Major Choices
+
+Students receive clarity earlier, lowering the chance of misalignment later.
+2. Supports Counsellors
+Counselors begin conversations with a structured student profile, saving time and improving
+quality.
+3. Strengthens School Reputation
+Parents see the school investing in thoughtful, evidence-based guidance.
+4. Creates Early Alignment
+Guidance happens before application stress and last-minute decisions.
+What Students Gain
+• Clear understanding of their strengths and preferences
+• Confidence in academic direction
+• Reduced comparison anxiety
+• Language to explain their choices to parents and teachers
+Students leave calmer, not more confused.
+
+Lovable:
+Create a clean, professional flyer layout for a school guidance platform called Manzil.
+Use calm colors (blue/green), icons, and clear heading sections like Problem, Solution,
+Benefits, Pilot Offer, Contact.
+MANZIL
+Helping Students Choose the Right Academic Direction — With Clarity, Not Guesswork
+The Challenge Schools Face
+Many capable students:
+Feel unsure about subject and major choices
+Make decisions under pressure
+Rely on advice that is subjective or last-minute
+This often leads to:
+Student dissatisfaction
+Parent anxiety
+Late changes in academic direction
+
+Schools are increasingly expected to support students not just academically — but
+directionally.
+What Is Manzil?
+Manzil is a student guidance platform that helps learners understand:
+What they enjoy (Interests)
+What motivates them (Values)
+How they work best (Personality)
+Using established psychological frameworks, Manzil provides clear, age-appropriate
+guidance that supports better academic decisions.
+Why Schools Use Manzil
+✅ Structured Guidance
+Based on validated models, not opinions.
+✅ Early Clarity
+Supports students before application stress begins.
+✅ Counselor Support
+Provides a structured student profile to guide conversations.
+✅ Parent Confidence
+Transparent explanations parents can understand and trust.
+What Students Receive
+A clear profile of their interests, values, and strengths
+Suggested academic majors explained in simple language
+Confidence in their academic direction
+Reduced stress and comparison anxiety
+Students leave clearer and calmer.
+What Schools Gain
+Reduced risk of wrong subject or major choices
+Stronger counseling conversations
+A visible commitment to student wellbeing and direction
+Positive parent perception and trust
+Pilot Program (No Cost)
+Schools are invited to participate in a free pilot for a small group of students.
+Pilot includes:
+Student assessments
+Individual guidance reports
+Anonymized school-level insights
+Student feedback summary
+No obligation after the pilot.
+
+Designed For
+A-Level / O-Level / IB schools
+Senior grades (14–19 years)
+Career guidance & counseling programs
+Contact
+[Your Name]
+Founder, Manzil
+📧 [Email]
+📞 [Phone]
+
+HR
+
+1⃣Pakistan — Universities (Source of Truth)
+Use:
+
+● HEC-recognized universities list (public + private)
+
+You are not inventing anything. This list already exists and is authoritative.
+Action:
+
+● Download/export the HEC list
+● This becomes your master Pakistan universities table
+
+Fields to store initially:
+
+● University name
+● City
+● Public / Private
+● HEC category (if available)
+
+⚠️ Important: At this stage, do NOT add programs or requirements yet.
+
+2⃣US — Universities (Source of Truth)
+Use:
+
+● IPEDS dataset (official US govt database)
+
+This instantly gives you:
+
+● All accredited US universities
+● IDs you can rely on long-term
+
+Action:
+
+● Extract a subset (don’t do all 4,000)
+● Start with:
+○ Top 300–500 universities
+○ Public + Private
+○ 4-year institutions
+
+Fields:
+
+● University name
+● State
+● Public / Private
+● Acceptance rate (if available)
+● IPEDS ID
+
+This gives you credibility immediately.
+
+PHASE 2: Define Your Data Model (Very Important)
+
+This is where most founders mess up. Keep it simple but extensible.
+Core Tables (Minimum)
+1. Universities
+id
+name
+country
+city/state
+public_private
+ranking_band (optional)
+
+2. Programs / Majors
+program_id
+university_id
+program_name
+field_tag (STEM / Arts / Policy / Design etc.)
+
+3. Eligibility Bands
+program_id
+curriculum_type (FSC / IB / A Levels)
+min_band (Elite / Strong / etc.)
+
+4. Scholarships (Optional in v1)
+scholarship_name
+country
+eligible_programs
+funding_type (full/partial)
+
+PHASE 3: Use LLMs the RIGHT Way (Weeks 2–3)
+Now AI enters—but carefully.
+🔹 Step 1: Manual seed (small but clean)
+Manually curate:
+
+● 10 Pakistani universities
+● 20 US universities
+
+For each:
+
+● 5–10 major programs
+● Approx eligibility bands (not exact marks)
+● 1–2 scholarships (if any)
+
+This is your gold dataset.
+
+🔹 Step 2: LLM-assisted expansion
+Now give the LLM:
+
+● Official university program pages
+● Ask it to:
+○ Extract program names
+○ Tag by field
+○ Suggest eligibility bands
+○ Summarize scholarships
+
+LLM prompt style:
+“Extract data ONLY from the provided content. If missing, say ‘unknown’.”
+No guessing allowed.
+
+🔹 Step 3: Human review (light)
+
+● Spot check
+● Lock records
+● Add confidence flags
+
+PHASE 4: Connect to the Career Engine
+Now the magic happens.
+Flow:
+
+1. Student takes quizzes → AI predicts:
+○ top careers
+○ recommended majors
+2. AI queries:
+○ programs table
+3. Filters by:
+○ grades → eligibility band
+○ country preference
+○ funding needs
+4. Outputs:
+○ Reach / Match / Safe universities
+
+○ With explanations
+
+We need a searchable university database that filters by major, city, budget,
+and public/private, and returns ranked results. Data is already We need a
+searchable university database that filters by major, city, budget, and
+public/private, and returns ranked results. Data is already structured.”
+structured.”
+
+January Tracker
+
+Tab 8
