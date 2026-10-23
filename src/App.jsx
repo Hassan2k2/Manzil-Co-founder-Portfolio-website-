@@ -1,5 +1,4 @@
 import photo from './assets/WhatsApp_Image_2026-03-10_at_11.42.43_PM-removebg-preview.png';
-import femaleCofounderPic from './assets/ChatGPT Image Jun 25, 2026, 12_04_01 PM.png';
 import { useState, useEffect, useRef, useLayoutEffect, useCallback } from "react";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import {
@@ -7,18 +6,19 @@ import {
   Users, Database, Sparkles, GraduationCap, BookOpen, Compass,
   Layers, CheckCircle2, MapPin, Quote, ChevronRight, ExternalLink,
   Globe, Brain, Cpu, BarChart3, Code2, Building2, Rocket, Shield,
-  Lightbulb, Star, Award, GitBranch, Server, PieChart, Zap
+  Lightbulb, Star, Award, GitBranch, Server, PieChart, Zap, Landmark
 } from "lucide-react";
 
 /* =========================================================
    DATA
    ========================================================= */
-const PHOTO = femaleCofounderPic;
+const PHOTO = "/oneir-portrait.jpg";
 
 const NAV_ITEMS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "research", label: "Research" },
   { id: "manzil", label: "Manzil" },
   { id: "contact", label: "Contact" },
 ];
@@ -28,6 +28,7 @@ const EXPERIENCE = [
     when: "Sept 2016 – Aug 2020", tag: "Education",
     title: "Bachelor's in International Relations",
     org: "National Defence University, Islamabad",
+    logo: "/NDU-logo.jfif",
     bullets: [
       "Awarded the Merit Award and Chancellor's Gold Medal for the highest GPA in the graduating class.",
     ],
@@ -35,19 +36,20 @@ const EXPERIENCE = [
   {
     when: "Sept 2020 – June 2022", tag: "Teach for Pakistan",
     title: "Teaching and Leadership Fellow",
-    org: "Islamabad, Pakistan",
+    org: "Teach For Pakistan, Islamabad",
+    logo: "/tfp-logo.svg",
     bullets: [
-      "Performed as a member of an internationally recognised fellowship (acceptance rate 1%) for college graduates.",
+      "Selected into an internationally recognised fellowship with a 3% acceptance rate; taught in partnership with government schools.",
       "Partnered directly with government, collaborating with school principals, teachers, and parents to implement targeted learning strategies — raising average formative student math and English assessment scores from 40% to 75%.",
-      "Planned and implemented a community project resulting in transformational impact on 1,200+ school children.",
+      "Planned and implemented a community literacy project resulting in transformational impact on 4,500+ children — PKR 600,000 raised, evaluated at baseline, midline, and endline.",
       "Liaised with 20+ key stakeholders and led a community partnership project aimed at building a library in the community.",
-      "Drafted complex end-to-end program proposals; built resource models and managed budgets, monitored progress, and conducted comprehensive evaluations at baseline, midline, and end-line stages.",
     ],
   },
   {
     when: "July 2022 – Dec 2022", tag: "Remoto",
     title: "Communications and Partnerships Lead",
-    org: "Madrid, Spain",
+    org: "Remoto, Madrid, Spain (remote-first)",
+    logo: "/remoto-logo.svg",
     bullets: [
       "Identified and promoted innovation and research partnerships across the US, UK, and Europe — initiating conversations and managing the pipeline progression from initial exploration to defined alignment.",
       "Strengthened internal processes for tracking active collaborations and sharing market analysis across remote, cross-functional teams to ensure clear alignment on strategy priorities.",
@@ -57,7 +59,8 @@ const EXPERIENCE = [
   {
     when: "Jan 2023 – Aug 2023", tag: "Tabadlab",
     title: "Associate, Policy and Communications",
-    org: "Islamabad, Pakistan",
+    org: "Tabadlab, Islamabad, Pakistan",
+    logo: "/tabadlab-logo.svg",
     bullets: [
       "Managed and nurtured high-level collaborative relationships with federal ministries, private sector actors, and international donors (World Bank, BMGF), increasing stakeholder engagement by 40%.",
       "Spearheaded a comprehensive policy dialogue roadmap involving 20+ institutional stakeholders, resulting in 10 actionable education sector reform recommendations for senior government partners.",
@@ -70,15 +73,17 @@ const EXPERIENCE = [
     when: "Oct 2023 – Jul 2024", tag: "Education",
     title: "MPhil, Education, Globalisation & International Development",
     org: "University of Cambridge, United Kingdom",
+    logo: "/cambridge-uni-logo.png",
     bullets: [
       "Awarded the merit-based, fully-funded Chevening Scholarship.",
-      "Published research: 'Exploring the gender differences in the use of EdTech amongst students in developing economies.'",
+      "Published research: 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan' with Sara Hennessy (EdTech Hub).",
     ],
   },
   {
     when: "Oct 2024 – Present", tag: "CERP", current: true,
     title: "Project Manager",
-    org: "Centre for Economic Research and Policy, Lahore",
+    org: "Centre for Economic Research and Policy (CERP), Lahore",
+    logo: "/CERP-logo.png",
     bullets: [
       "Lead the design, scoping, and implementation of monitoring and evaluation (M&E) systems for a large-scale, quasi-experimental evaluation of a two-year government EdTech intervention across 341 schools.",
       "Map the regional EdTech landscape, evaluate AI-readiness, and flag operational gaps where external tech implementations could add direct value.",
@@ -601,6 +606,103 @@ const CSS = `
   .moat-item .moat-num { font-family:'Space Mono',monospace; font-size: 28px; color: var(--lavender-deep); display: block; margin-bottom: 6px; }
   .moat-item p { color: var(--softD); font-size: 13px; }
   @media (max-width: 640px) { .moat-strip { grid-template-columns: 1fr; } }
+
+  /* ─── Research & Publication Cards ─── */
+  .pub-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 36px;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+    align-items: center;
+    box-shadow: 0 10px 30px -10px rgba(21,11,51,0.06);
+    transition: transform .3s ease, box-shadow .3s ease;
+  }
+  .pub-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -12px rgba(21,11,51,0.12);
+  }
+  .pub-cover-wrap {
+    display: block;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    box-shadow: 0 8px 24px rgba(21,11,51,0.08);
+    transition: transform .3s ease;
+  }
+  .pub-cover-wrap:hover {
+    transform: scale(1.02);
+  }
+  .pub-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+  }
+  .pub-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .logo-box {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .logo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .partner-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 100px;
+    padding: 8px 18px 8px 10px;
+    box-shadow: 0 2px 10px rgba(21,11,51,0.03);
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .partner-pill:hover {
+    transform: translateY(-2px);
+    border-color: var(--violet);
+  }
+  .partner-pill .logo-box {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 4px;
+  }
+  .partner-pill span {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  @media (max-width: 860px) {
+    .pub-card {
+      grid-template-columns: 1fr;
+      padding: 24px;
+      gap: 24px;
+    }
+    .pub-cover {
+      max-width: 240px;
+      margin: 0 auto;
+    }
+  }
 `;
 
 /* =========================================================
@@ -846,7 +948,7 @@ function NavBar({ page, setPage }) {
           </button>
           <div className={`navlinks${open ? " open" : ""}`} ref={containerRef}>
             <div className="navindicator" style={{ left: ind.left, width: ind.width, opacity: ind.opacity }} />
-            {NAV_ITEMS.slice(0, 4).map(item => (
+            {NAV_ITEMS.filter(item => item.id !== "contact").map(item => (
               <button
                 key={item.id}
                 ref={el => (linkRefs.current[item.id] = el)}
@@ -931,17 +1033,17 @@ function HomePage({ setPage }) {
         <div className="hero-grid">
           <div>
             <Reveal>
-              <div className="eyebrow" style={{ marginBottom: 20 }}>Product Development · EdTech · Global Strategy</div>
+              <div className="eyebrow" style={{ marginBottom: 20 }}>EdTech · AI in Education · Global Development</div>
             </Reveal>
             <Reveal delay={80}>
-              <h1>Building <em>systems</em><br />that guide Pakistan's<br />22 million students.</h1>
+              <h1>Evidence is the <em>strongest</em><br />education technology.</h1>
             </Reveal>
             <Reveal delay={160}>
-              <p className="lead">Cambridge-trained development professional with 4+ years across policy, data engineering, and AI-powered EdTech — currently co-founding Manzil, Pakistan's first psychometric academic and career pathway platform.</p>
+              <p className="lead">Cambridge-trained EdTech and M&E leader with 5+ years designing government-scale education evaluations, authoring global research on gender & digital learning, and co-founding Manzil — Pakistan's first psychometric pathway platform.</p>
             </Reveal>
             <Reveal delay={240}>
               <div className="hero-actions">
-                <MagBtn variant="primary" onClick={() => setPage("manzil")}>See what I'm building <ArrowRight size={16} /></MagBtn>
+                <MagBtn variant="primary" onClick={() => setPage("research")}>See my research <ArrowRight size={16} /></MagBtn>
                 <MagBtn variant="ghost" onClick={() => setPage("experience")}>My journey</MagBtn>
               </div>
             </Reveal>
@@ -952,10 +1054,10 @@ function HomePage({ setPage }) {
 
       <div className="statstrip">
         <div className="wrap">
-          <StatCounter target={4} suffix="+ yrs" label="Development & Strategy" />
+          <StatCounter target={5} suffix="+ yrs" label="EdTech & Global Development" />
           <StatCounter target={341} suffix="" label="Schools, M&E Systems" />
-          <StatCounter target={10000} suffix="+" label="Data Points Tracked" />
-          <StatCounter target={5} suffix=" countries" label="University Database" />
+          <StatCounter target={10000} suffix="+" label="Research Participants" />
+          <StatCounter target={4500} suffix="+" label="Children Reached Directly" />
         </div>
       </div>
 
@@ -1097,19 +1199,47 @@ function AboutPage({ setPage }) {
           <div className="grid2">
             <Reveal className="card">
               <h3 style={{ marginBottom: 14 }}>Partnership & Pipeline Management</h3>
-              <div><span className="tag">Relationship Management</span><span className="tag">Stakeholder Coordination</span><span className="tag">Pipeline Development</span><span className="tag">CRM Management</span><span className="tag">Donor Engagement</span></div>
+              <div><span className="tag">Relationship Management</span><span className="tag">Stakeholder Coordination</span><span className="tag">Pipeline Development</span><span className="tag">CRM Management</span><span className="tag">Donor Engagement</span><span className="tag">Salesforce</span></div>
             </Reveal>
             <Reveal className="card" delay={80}>
               <h3 style={{ marginBottom: 14 }}>Data & Research</h3>
-              <div><span className="tag">Python</span><span className="tag">SQL</span><span className="tag">Stata</span><span className="tag">NVivo</span><span className="tag">Advanced Excel</span><span className="tag">Google Sheets</span><span className="tag">M&E Frameworks</span><span className="tag">Expenditure Tracking</span></div>
+              <div><span className="tag">Python</span><span className="tag">SQL</span><span className="tag">Stata</span><span className="tag">NVivo</span><span className="tag">Advanced Excel</span><span className="tag">Google Sheets</span><span className="tag">M&E Frameworks</span><span className="tag">Quasi-Experimental Evaluation</span></div>
             </Reveal>
             <Reveal className="card" delay={160}>
               <h3 style={{ marginBottom: 14 }}>AI & Product Development</h3>
-              <div><span className="tag">EdTech Readiness Assessment</span><span className="tag">Digital Transformation Frameworks</span><span className="tag">Advanced AI Prompting (ChatGPT, Gemini)</span><span className="tag">Cross-Functional Technical Alignment</span><span className="tag">Figma</span><span className="tag">Salesforce</span></div>
+              <div><span className="tag">EdTech Readiness Assessment</span><span className="tag">AI-Readiness Mapping</span><span className="tag">Digital Transformation Frameworks</span><span className="tag">Advanced AI Prompting (ChatGPT, Gemini)</span><span className="tag">LLM Integration</span><span className="tag">Figma</span></div>
             </Reveal>
             <Reveal className="card" delay={240}>
               <h3 style={{ marginBottom: 14 }}>Languages</h3>
               <div><span className="tag">English</span><span className="tag">Urdu</span><span className="tag">Hindi</span><span className="tag">Italian</span><span className="tag">Arabic</span></div>
+            </Reveal>
+          </div>
+
+          <div style={{ marginTop: 60 }}>
+            <Reveal className="sec-head" style={{ marginBottom: 28 }}>
+              <div className="eyebrow">Institutions & Networks</div>
+              <h3 style={{ fontSize: 24, marginTop: 8 }}>Organisations, donors, and academic bodies worked with.</h3>
+            </Reveal>
+            <Reveal delay={80}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 12 }}>
+                {[
+                  { name: "University of Cambridge", logo: "/cambridge-uni-logo.png" },
+                  { name: "Chevening Scholarships", logo: "/chevening-logo.png" },
+                  { name: "CERP", logo: "/CERP-logo.png" },
+                  { name: "Tabadlab", logo: "/tabadlab-logo.svg" },
+                  { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
+                  { name: "World Bank", logo: "/world-bank-logo.png" },
+                  { name: "Gates Foundation", logo: "/gates-foundation-logo.jfif" },
+                  { name: "National Defence University", logo: "/NDU-logo.jfif" },
+                ].map(org => (
+                  <div key={org.name} className="partner-pill">
+                    <div className="logo-box">
+                      <img src={org.logo} alt={org.name} />
+                    </div>
+                    <span>{org.name}</span>
+                  </div>
+                ))}
+              </div>
             </Reveal>
           </div>
         </div>
@@ -1142,8 +1272,17 @@ function PathwayTimeline() {
       {EXPERIENCE.map((e, i) => (
         <Reveal key={i} delay={i * 60} className={`waypoint ${e.current ? "current" : ""}`}>
           <div className="wp-meta"><span>{e.when}</span><span>·</span><span>{e.tag}</span></div>
-          <h3>{e.title}</h3>
-          <div className="org">{e.org}</div>
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 8 }}>
+            {e.logo && (
+              <div className="logo-box" style={{ marginTop: 2 }}>
+                <img src={e.logo} alt={e.org} />
+              </div>
+            )}
+            <div>
+              <h3>{e.title}</h3>
+              <div className="org">{e.org}</div>
+            </div>
+          </div>
           <ul>{e.bullets.map((b, j) => <li key={j}>{b}</li>)}</ul>
         </Reveal>
       ))}
@@ -1159,12 +1298,59 @@ function ExperiencePage({ setPage }) {
           <div className="center" style={{ maxWidth: 640, margin: "0 auto" }}>
             <Reveal><div className="eyebrow" style={{ justifyContent: "center" }}>Experience</div></Reveal>
             <Reveal delay={80}><h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>Manzil means <em>destination</em>. Here's the road so far.</h1></Reveal>
-            <Reveal delay={160}><p className="lead" style={{ margin: "16px auto 0" }}>Six years, five stops, one direction — from a classroom in Islamabad to a co-founder's desk building the guidance system Pakistan never had.</p></Reveal>
+            <Reveal delay={160}><p className="lead" style={{ margin: "16px auto 0" }}>From a classroom in Islamabad to leading the evaluation of a national EdTech intervention across 341 schools — with policy, research, and global partnerships along the way.</p></Reveal>
           </div>
         </div>
       </HeroSection>
 
-      <section className="sec"><div className="wrap"><PathwayTimeline /></div></section>
+      {/* CERP Spotlight Section */}
+      <section className="tint sec">
+        <div className="wrap">
+          <Reveal className="sec-head" style={{ marginBottom: 40 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
+              <div className="logo-box" style={{ width: 44, height: 44 }}>
+                <img src="/CERP-logo.png" alt="CERP logo" />
+              </div>
+              <span className="eyebrow" style={{ margin: 0 }}>Current Work · CERP Spotlight</span>
+            </div>
+            <h2>Evaluating a national EdTech intervention, school by school.</h2>
+            <p>At the Centre for Economic Research and Policy (CERP), I lead the M&E systems for a large-scale, quasi-experimental evaluation of a two-year government EdTech intervention across 341 public schools — measuring what actually changes for teachers and students when technology enters the classroom.</p>
+          </Reveal>
+
+          <div className="grid4">
+            <Reveal className="card">
+              <div className="icon"><BarChart3 size={20} /></div>
+              <h3>Quasi-experimental design</h3>
+              <p>Rigorous monitoring and evaluation framework across 341 public schools, collecting data at baseline, midline, and endline.</p>
+            </Reveal>
+            <Reveal className="card" delay={80}>
+              <div className="icon"><Database size={20} /></div>
+              <h3>Data at scale</h3>
+              <p>Cleaning and synthesizing quantitative (Stata, SQL, Excel) and qualitative (NVivo) datasets for 10,000+ participants.</p>
+            </Reveal>
+            <Reveal className="card" delay={160}>
+              <div className="icon"><Cpu size={20} /></div>
+              <h3>AI-readiness mapping</h3>
+              <p>Assessing AI-readiness across the education ecosystem, flagging operational gaps where tech adds direct value.</p>
+            </Reveal>
+            <Reveal className="card" delay={240}>
+              <div className="icon"><Landmark size={20} /></div>
+              <h3>Government & Donors</h3>
+              <p>Partnering with provincial ministry leadership, World Bank, and BMGF to translate findings into institutional ownership.</p>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="sec">
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div className="eyebrow">Career Pathway</div>
+            <h2>Full timeline & roles</h2>
+          </Reveal>
+          <PathwayTimeline />
+        </div>
+      </section>
 
       <section className="dark sec">
         <div className="wrap center" style={{ maxWidth: 640 }}>
@@ -1564,7 +1750,7 @@ function ManzilPage({ setPage }) {
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Reveal className="card" style={{ maxWidth: 440, width: "100%", textAlign: "center" }}>
               <img
-                src={femaleCofounderPic}
+                src={PHOTO}
                 alt="Oneir Raza"
                 style={{ width: 200, height: 200, borderRadius: "50%", objectFit: "cover", objectPosition: "top", margin: "0 auto 20px", display: "block", border: "3px solid var(--lavender)" }}
               />
@@ -1589,6 +1775,199 @@ function ManzilPage({ setPage }) {
           <Reveal><h2 style={{ fontSize: "clamp(24px,2.8vw,34px)" }}>Interested in piloting Manzil, or partnering strategically?</h2></Reveal>
           <Reveal delay={100} style={{ marginTop: 26 }}>
             <MagBtn variant="ghost-light" onClick={() => setPage("contact")}>Get in touch <ArrowRight size={16} /></MagBtn>
+          </Reveal>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function ResearchPage({ setPage }) {
+  const interests = [
+    "EdTech adoption & equity",
+    "Gender in digital learning",
+    "Education in developing economies",
+    "AI readiness in public education",
+    "Large-scale program evaluation",
+    "Evidence-to-policy translation",
+  ];
+
+  return (
+    <div className="page-enter">
+      <HeroSection centered minHeight="55vh">
+        <div className="hero-grid" style={{ gridTemplateColumns: "1fr" }}>
+          <div className="center" style={{ maxWidth: 680, margin: "0 auto" }}>
+            <Reveal><div className="eyebrow" style={{ justifyContent: "center" }}>Research & Publications</div></Reveal>
+            <Reveal delay={80}>
+              <h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>
+                Evidence on who EdTech <em>actually reaches.</em>
+              </h1>
+            </Reveal>
+            <Reveal delay={160}>
+              <p className="lead" style={{ margin: "16px auto 0" }}>
+                My research asks a simple question with complicated answers: when technology enters a classroom, who benefits — and what actually changes learning?
+              </p>
+            </Reveal>
+          </div>
+        </div>
+      </HeroSection>
+
+      {/* Featured Paper */}
+      <section className="sec">
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div className="eyebrow">Publication</div>
+            <h2>Featured Paper</h2>
+          </Reveal>
+          <Reveal>
+            <article className="pub-card">
+              <a
+                href="https://edtechhub.org/report/exploring-the-gender-differences-in-technology-use-for-educational-purposes-at-home-among-students-in-pakistan/"
+                target="_blank"
+                rel="noreferrer"
+                className="pub-cover-wrap"
+              >
+                <img
+                  src="/edtechhub-cover.png"
+                  alt="Cover of the EdTech Hub report"
+                  className="pub-cover"
+                />
+              </a>
+              <div>
+                <div className="pub-meta">
+                  <div className="logo-box">
+                    <img src="/edtechhub-logo.svg" alt="EdTech Hub logo" />
+                  </div>
+                  <p className="mono" style={{ fontSize: 11.5, color: "var(--violet)", letterSpacing: ".12em", textTransform: "uppercase" }}>
+                    EdTech Hub report · July 2025 · with Sara Hennessy
+                  </p>
+                </div>
+                <h3 style={{ fontSize: "clamp(20px,2.4vw,28px)", lineHeight: 1.25, marginBottom: 14 }}>
+                  “Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan”
+                </h3>
+                <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 24 }}>
+                  Based on my MPhil research at the University of Cambridge (Chevening Scholarship). Drawing on a survey of 2,000+ teachers and interviews with EdTech stakeholders, it examines how social norms and parental attitudes shape girls' and boys' use of EdTech at home in Pakistan.
+                </p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 12, alignItems: "center" }}>
+                  <a
+                    href="https://docs.edtechhub.org/lib/KM9JWBE7/download/EEQPNN9R"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                    style={{ fontSize: 13.5, padding: "11px 22px" }}
+                  >
+                    Read full report (PDF) <ExternalLink size={14} />
+                  </a>
+                  <a
+                    href="https://edtechhub.org/report/exploring-the-gender-differences-in-technology-use-for-educational-purposes-at-home-among-students-in-pakistan/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-ghost-light"
+                    style={{ fontSize: 13.5, padding: "11px 22px" }}
+                  >
+                    EdTech Hub page <ExternalLink size={14} />
+                  </a>
+                  <a
+                    href="https://doi.org/10.53832/edtechhub.1099"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mono"
+                    style={{ fontSize: 12, color: "var(--violet)", display: "inline-flex", alignItems: "center", gap: 4, marginLeft: 6 }}
+                  >
+                    DOI: 10.53832/edtechhub.1099 <ExternalLink size={11} />
+                  </a>
+                </div>
+              </div>
+            </article>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Policy Brief */}
+      <section className="tint sec">
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div className="eyebrow">Policy Brief</div>
+            <h2>From research to reform.</h2>
+          </Reveal>
+          <Reveal>
+            <article className="pub-card">
+              <a
+                href="https://tabadlab.com/leadership/islahati-jaiza/"
+                target="_blank"
+                rel="noreferrer"
+                className="pub-cover-wrap"
+              >
+                <img
+                  src="/tabadlab-cover.png"
+                  alt="Cover of the Tabadlab policy brief on Punjab education sector reforms"
+                  className="pub-cover"
+                />
+              </a>
+              <div>
+                <div className="pub-meta">
+                  <div className="logo-box">
+                    <img src="/tabadlab-logo.svg" alt="Tabadlab logo" />
+                  </div>
+                  <p className="mono" style={{ fontSize: 11.5, color: "var(--violet)", letterSpacing: ".12em", textTransform: "uppercase" }}>
+                    Tabadlab · July 2023
+                  </p>
+                </div>
+                <h3 style={{ fontSize: "clamp(20px,2.4vw,28px)", lineHeight: 1.25, marginBottom: 14 }}>
+                  “Islahi Jaiza: Punjab Education Sector Reforms” — what the future holds
+                </h3>
+                <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 24 }}>
+                  A policy brief I researched and wrote at Tabadlab, reviewing two decades of education reform in Punjab. It draws on a policy dialogue roadmap with 20+ institutional stakeholders and sets out actionable recommendations for the sector.
+                </p>
+                <div>
+                  <a
+                    href="https://tabadlab.com/leadership/islahati-jaiza/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                    style={{ fontSize: 13.5, padding: "11px 22px" }}
+                  >
+                    View on Tabadlab <ExternalLink size={14} />
+                  </a>
+                </div>
+              </div>
+            </article>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Research Interests */}
+      <section className="sec">
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div className="eyebrow">Interests</div>
+            <h2>What I keep coming back to.</h2>
+          </Reveal>
+          <Reveal>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+              {interests.map(item => (
+                <span
+                  key={item}
+                  style={{
+                    display: "inline-block",
+                    padding: "10px 20px",
+                    borderRadius: 100,
+                    background: "var(--lavender)",
+                    color: "var(--violet)",
+                    fontWeight: 600,
+                    fontSize: 14,
+                    border: "1px solid var(--line)",
+                  }}
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+          </Reveal>
+          <Reveal delay={120} style={{ marginTop: 44 }}>
+            <MagBtn variant="primary" onClick={() => setPage("contact")}>
+              Collaborate on research <ArrowRight size={16} />
+            </MagBtn>
           </Reveal>
         </div>
       </section>
@@ -1710,7 +2089,14 @@ export default function Portfolio() {
     document.title = `Oneir Raza | ${NAV_ITEMS.find(n => n.id === page)?.label || "Portfolio"}`;
   }, [page]);
 
-  const PageMap = { home: HomePage, about: AboutPage, experience: ExperiencePage, manzil: ManzilPage, contact: ContactPage };
+  const PageMap = {
+    home: HomePage,
+    about: AboutPage,
+    experience: ExperiencePage,
+    research: ResearchPage,
+    manzil: ManzilPage,
+    contact: ContactPage
+  };
   const Page = PageMap[page];
 
   return (

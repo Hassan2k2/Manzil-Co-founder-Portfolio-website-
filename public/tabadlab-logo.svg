@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="16" fill="#182b49"/>
+  <circle cx="42" cy="46" r="14" fill="#00b4d8"/>
+  <circle cx="78" cy="46" r="14" fill="#90e0ef"/>
+  <text x="60" y="88" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="800" font-size="14" letter-spacing="1" text-anchor="middle">TABADLAB</text>
+</svg>
