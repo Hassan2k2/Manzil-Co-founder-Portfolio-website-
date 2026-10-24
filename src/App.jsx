@@ -1261,7 +1261,7 @@ function AboutPage({ setPage }) {
             <Reveal delay={80}><h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>Reading systems, then building what's missing.</h1></Reveal>
             <Reveal delay={160}>
               <p className="lead" style={{ maxWidth: 520 }}>
-                Global partnerships and strategy professional with a Cambridge MPhil and 4+ years navigating the intersection of educational technology, public policy, and international development. Proven track record of managing high-stakes institutional relationships with federal ministries, academic institutions, and global foundations including the World Bank and the Bill & Melinda Gates Foundation. Expert at translating complex data capabilities into strategic opportunities — and serving as the cross-functional liaison between technical teams and external stakeholders. Deeply knowledgeable in global EdTech ecosystems and emerging AI applications in education.
+                Global partnerships and strategy professional with a Cambridge MPhil and 5+ years navigating the intersection of educational technology, public policy, and international development. Proven track record of managing high-stakes institutional relationships with federal ministries, academic institutions, and global foundations including the World Bank and the Bill & Melinda Gates Foundation. Expert at translating complex data capabilities into strategic opportunities — and serving as the cross-functional liaison between technical teams and external stakeholders. Deeply knowledgeable in global EdTech ecosystems and emerging AI applications in education.
               </p>
             </Reveal>
           </div>
