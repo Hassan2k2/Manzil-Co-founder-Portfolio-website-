@@ -174,6 +174,8 @@ const CSS = `
     color: var(--ink);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
     -webkit-font-smoothing: antialiased;
   }
   .prx h1, .prx h2, .prx h3, .prx h4 {
@@ -249,7 +251,7 @@ const CSS = `
   .navcta:hover { transform: translateY(-2px); background: var(--violet); }
   .navtoggle { display: none; background: none; border: none; cursor: pointer; color: var(--ink); padding: 6px; }
 
-  @media (max-width: 860px) {
+  @media (max-width: 1024px) {
     .navlinks {
       position: absolute;
       top: 100%;
@@ -538,7 +540,7 @@ const CSS = `
 
   /* ─── Co-Founder Grid ─── */
   .co-founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
-  @media (max-width: 860px) {
+  @media (max-width: 1024px) {
     .co-founder-grid { grid-template-columns: 1fr; gap: 40px; }
   }
 
@@ -795,7 +797,7 @@ const CSS = `
     font-weight: 600;
     color: var(--ink);
   }
-  @media (max-width: 860px) {
+  @media (max-width: 1024px) {
     .pub-card {
       grid-template-columns: 1fr;
       padding: 24px;
@@ -1007,7 +1009,7 @@ function NavBar({ page, setPage }) {
 
   // Close mobile menu on resize to desktop
   useEffect(() => {
-    const handler = () => { if (window.innerWidth > 860) setOpen(false); };
+    const handler = () => { if (window.innerWidth > 1024) setOpen(false); };
     window.addEventListener("resize", handler);
     return () => window.removeEventListener("resize", handler);
   }, []);
@@ -1016,7 +1018,7 @@ function NavBar({ page, setPage }) {
   useLayoutEffect(() => {
     const el = linkRefs.current[page];
     const cont = containerRef.current;
-    if (el && cont && window.innerWidth > 860) {
+    if (el && cont && window.innerWidth > 1024) {
       const r = el.getBoundingClientRect();
       const cr = cont.getBoundingClientRect();
       setInd({ left: r.left - cr.left, width: r.width, opacity: 1 });
