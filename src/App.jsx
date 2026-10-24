@@ -46,7 +46,7 @@ const EXPERIENCE = [
     title: "Associate, Policy and Communications",
     org: "Tabadlab",
     place: "Islamabad, Pakistan",
-    logo: "/tabadlab-logo.svg",
+    logo: "/tabadlab-new-logo.jpeg",
     bullets: [
       "Managed and nurtured high-level collaborative relationships with federal ministries, private sector actors, and international donors (World Bank, BMGF), increasing stakeholder engagement by 40%.",
       "Spearheaded a comprehensive policy dialogue roadmap involving 20+ institutional stakeholders, resulting in 10 actionable education sector reform recommendations for senior government partners.",
@@ -90,18 +90,17 @@ const EDUCATION_DATA = [
     org: "University of Cambridge",
     place: "Cambridge, United Kingdom",
     logo: "/cambridge-uni-logo.png",
-    badge: "Chevening Scholar",
-    badgeLogo: "/chevening-logo.png",
+    badge: "Faculty of Education",
     photos: [
       { src: "/cambridge-graduate-pic.jfif", caption: "Cambridge Graduation Day" },
       { src: "/cambridge-graduate-pic-2.jfif", caption: "Academic Robes at Cambridge" },
       { src: "/cambridge-graduate-pic-3.jfif", caption: "Cambridge Faculty of Education" },
     ],
-    summary: "Awarded the prestigious, fully-funded Chevening Scholarship from the UK Foreign, Commonwealth & Development Office (FCDO). Thesis on gender differences in EdTech use among students in Pakistan, co-authored with Sara Hennessy and published by EdTech Hub.",
+    summary: "Worked alongside world-class faculty at the University of Cambridge Faculty of Education and in collaboration with EdTech Hub, researching and authoring a published thesis on gender differences in technology use for educational purposes at home among students in Pakistan (co-authored with Sara Hennessy).",
     bullets: [
-      "Prestigious UK Government Chevening Scholarship recipient (acceptance rate < 2%).",
-      "Published research: 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan' with Sara Hennessy (EdTech Hub).",
-      "Specialised in global educational globalisation, empirical impact evaluations, and quantitative/qualitative research methods in developing economies.",
+      "Collaborated with world-class education faculty and global researchers at the University of Cambridge Faculty of Education.",
+      "Conducted empirical research in formal collaboration with EdTech Hub, surveying 2,000+ educators across Pakistan.",
+      "Thesis published by EdTech Hub (July 2025): 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan.'",
     ],
   },
   {
@@ -538,10 +537,10 @@ const CSS = `
     .card { padding: 22px; }
   }
 
-  /* ─── Co-Founder Grid ─── */
-  .co-founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+  /* ─── Founder Grid ─── */
+  .founder-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
   @media (max-width: 1024px) {
-    .co-founder-grid { grid-template-columns: 1fr; gap: 40px; }
+    .founder-grid { grid-template-columns: 1fr; gap: 40px; }
   }
 
   /* ─── Reduced motion ─── */
@@ -988,7 +987,7 @@ function HeroPhoto({ size }) {
         <div className="orbit orbit-1"><span className="orbit-dot orbit-dot-1" /></div>
         <div className="orbit orbit-2"><span className="orbit-dot orbit-dot-2" /></div>
         <div className="orbit orbit-3"><span className="orbit-dot orbit-dot-3" /></div>
-        <img src={PHOTO} alt="Oneir Raza – Co-Founder, Manzil" />
+        <img src={PHOTO} alt="Oneir Raza – Founder, Manzil" />
       </div>
     </div>
   );
@@ -1098,7 +1097,7 @@ function Footer({ setPage }) {
       <div className="wrap footrow">
         <div>
           <h3>Oneir Raza</h3>
-          <p style={{ maxWidth: 300, fontSize: 14.5 }}>Product Development · EdTech Strategy · Co-Founder, Manzil.</p>
+          <p style={{ maxWidth: 300, fontSize: 14.5 }}>Product Development · EdTech Strategy · Founder, Manzil.</p>
           <div style={{ marginTop: 16, display: "flex", gap: 12, flexWrap: "wrap" }}>
             <a href="https://www.linkedin.com/in/oneirraza" target="_blank" rel="noreferrer"
               style={{ color: "var(--softD)", fontSize: 13.5, display: "flex", alignItems: "center", gap: 6, transition: "color .2s" }}
@@ -1121,7 +1120,7 @@ function Footer({ setPage }) {
         </div>
       </div>
       <div className="wrap footbottom">
-        <span>© 2026 Oneir Raza · Co-Founder, Manzil</span>
+        <span>© 2026 Oneir Raza · Founder, Manzil</span>
         <span>oneirraza@gmail.com</span>
       </div>
     </footer>
@@ -1138,13 +1137,13 @@ function HomePage({ setPage }) {
         <div className="hero-grid">
           <div>
             <Reveal>
-              <div className="eyebrow" style={{ marginBottom: 20 }}>EdTech · AI in Education · Global Development</div>
+              <div className="eyebrow" style={{ marginBottom: 20 }}>Bridging research, technology, and policy to scale education innovation</div>
             </Reveal>
             <Reveal delay={80}>
               <h1>Evidence is the <em>strongest</em><br />education technology.</h1>
             </Reveal>
             <Reveal delay={160}>
-              <p className="lead">Cambridge-trained EdTech and M&E leader with 5+ years designing government-scale education evaluations, authoring global research on gender & digital learning, and co-founding Manzil — Pakistan's first psychometric pathway platform.</p>
+              <p className="lead">Cambridge-trained EdTech and M&E leader with 5+ years designing government-scale education evaluations, authoring global research on gender & digital learning, and founding Manzil — Pakistan's first psychometric pathway platform.</p>
             </Reveal>
             <Reveal delay={240}>
               <div className="hero-actions">
@@ -1199,9 +1198,9 @@ function HomePage({ setPage }) {
       </section>
 
       <section className="dark sec">
-        <div className="wrap co-founder-grid">
+        <div className="wrap founder-grid">
           <Reveal>
-            <div className="eyebrow">Co-Founder · Manzil</div>
+            <div className="eyebrow">Founder · Manzil</div>
             <h2 style={{ marginTop: 14, fontSize: "clamp(26px,3vw,38px)" }}>A destination — built for 22M students who don't have a map yet.</h2>
             <p style={{ color: "var(--softD)", marginTop: 16, fontSize: 16 }}>Pakistan has almost no structured career guidance infrastructure. Manzil replaces guesswork with a three-layer psychometric engine — interests, values, personality — matched against a verified, multi-country university and scholarship database.</p>
             <div style={{ marginTop: 26 }}>
@@ -1362,7 +1361,7 @@ function AboutPage({ setPage }) {
                   { name: "Chevening Scholarships", logo: "/chevening-logo.png" },
                   { name: "United Nations (UN)", logo: "/UN-logo.png" },
                   { name: "CERP", logo: "/CERP-logo.png" },
-                  { name: "Tabadlab", logo: "/tabadlab-logo.svg" },
+                  { name: "Tabadlab", logo: "/tabadlab-new-logo.jpeg" },
                   { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
                   { name: "World Bank", logo: "/world-bank-logo-2.png" },
                   { name: "Gates Foundation", logo: "/gates-foundation-logo.jfif" },
@@ -1433,7 +1432,7 @@ function ExperiencePage({ setPage }) {
         <div className="hero-grid" style={{ gridTemplateColumns: "1fr" }}>
           <div className="center" style={{ maxWidth: 640, margin: "0 auto" }}>
             <Reveal><div className="eyebrow" style={{ justifyContent: "center" }}>Experience</div></Reveal>
-            <Reveal delay={80}><h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>Manzil means <em>destination</em>. Here's the road so far.</h1></Reveal>
+            <Reveal delay={80}><h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>Here's the road so far.</h1></Reveal>
             <Reveal delay={160}><p className="lead" style={{ margin: "16px auto 0" }}>From a classroom in Islamabad to leading the evaluation of a national EdTech intervention across 341 schools — with policy, research, and global partnerships along the way.</p></Reveal>
           </div>
         </div>
@@ -1968,7 +1967,7 @@ function ManzilPage({ setPage }) {
                 style={{ width: 200, height: 200, borderRadius: "50%", objectFit: "cover", objectPosition: "top", margin: "0 auto 20px", display: "block", border: "3px solid var(--lavender)" }}
               />
               <h3 style={{ fontSize: 22 }}>Oneir Raza</h3>
-              <p style={{ color: "var(--violet)", fontWeight: 600, fontSize: 14, marginBottom: 12, marginTop: 6 }}>Co-Founder</p>
+              <p style={{ color: "var(--violet)", fontWeight: 600, fontSize: 14, marginBottom: 12, marginTop: 6 }}>Founder</p>
               <p style={{ marginBottom: 18 }}>Cambridge MPhil · Chevening Scholar · Policy, EdTech, and partnerships across CERP, Tabadlab, and Remoto. Driving product development, psychometric architecture, university data pipeline, and strategic partnerships.</p>
               <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
                 <a href="https://www.linkedin.com/in/oneirraza" target="_blank" rel="noreferrer" className="btn btn-violet" style={{ padding: "9px 18px", fontSize: 13 }}>
@@ -2031,9 +2030,6 @@ function EducationPage({ setPage }) {
                 <div className="logo-box" style={{ width: 60, height: 60 }}>
                   <img src="/cambridge-uni-logo.png" alt="University of Cambridge" />
                 </div>
-                <div className="logo-box" style={{ width: 60, height: 60 }}>
-                  <img src="/chevening-logo.png" alt="Chevening logo" />
-                </div>
                 <div>
                   <div className="mono" style={{ fontSize: 12.5, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
                     Oct 2023 – Jul 2024 · Cambridge, United Kingdom
@@ -2041,7 +2037,7 @@ function EducationPage({ setPage }) {
                   <h4 style={{ fontSize: 17, color: "var(--violet)", fontWeight: 700 }}>University of Cambridge</h4>
                 </div>
                 <div style={{ marginLeft: "auto" }}>
-                  <span className="edu-badge-pill">★ Chevening Scholar</span>
+                  <span className="edu-badge-pill">★ Cambridge Faculty of Education</span>
                 </div>
               </div>
 
@@ -2050,7 +2046,7 @@ function EducationPage({ setPage }) {
               </h3>
 
               <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.65, marginBottom: 20 }}>
-                Awarded the prestigious, fully-funded Chevening Scholarship from the UK Foreign, Commonwealth & Development Office (FCDO). Thesis on gender differences in EdTech use among students in Pakistan, co-authored with Sara Hennessy and published by EdTech Hub.
+                Worked alongside world-class faculty at the University of Cambridge Faculty of Education and in collaboration with EdTech Hub, researching and authoring a published thesis on gender differences in technology use for educational purposes at home among students in Pakistan (co-authored with Sara Hennessy).
               </p>
 
               {/* 3 Cambridge Graduation Photos */}
@@ -2109,15 +2105,9 @@ function EducationPage({ setPage }) {
                 Bachelor's in International Relations
               </h3>
 
-              <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.65, marginBottom: 16 }}>
-                Awarded the Chancellor's Gold Medal and Merit Award for achieving the highest GPA across the graduating class. Established a deep grounding in institutional policy, governance, and state structures later applied in education sector reforms.
+              <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.75, margin: "8px 0 0" }}>
+                Awarded the Chancellor's Gold Medal and Merit Award for achieving the highest overall GPA in the graduating class. Established a rigorous academic grounding in institutional policy, governance, international political economy, and state structures — foundational insights carried forward into national education reform and EdTech strategy.
               </p>
-
-              <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7 }}>
-                <li style={{ marginBottom: 6 }}>Chancellor's Gold Medal for the highest overall GPA across the graduating class.</li>
-                <li style={{ marginBottom: 6 }}>Merit Award for exceptional academic and extracurricular performance.</li>
-                <li style={{ marginBottom: 6 }}>Formed foundational knowledge in policy dialogue, governance, and institutional design later applied across education sector reforms.</li>
-              </ul>
             </article>
           </Reveal>
         </div>
@@ -2374,7 +2364,7 @@ function ResearchPage({ setPage }) {
               <div>
                 <div className="pub-meta">
                   <div className="logo-box">
-                    <img src="/tabadlab-logo.svg" alt="Tabadlab logo" />
+                    <img src="/tabadlab-new-logo.jpeg" alt="Tabadlab logo" />
                   </div>
                   <p className="mono" style={{ fontSize: 11.5, color: "var(--violet)", letterSpacing: ".12em", textTransform: "uppercase" }}>
                     Tabadlab · July 2023
@@ -2455,34 +2445,42 @@ function ContactPage() {
 
       <section className="sec" style={{ paddingTop: 0, marginTop: -56, position: "relative", zIndex: 3 }}>
         <div className="wrap">
-          <div className="grid2">
-            <Reveal className="card">
-              <div className="icon"><Mail size={20} /></div>
-              <h3>Email</h3>
-              <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=oneirraza@gmail.com" target="_blank" rel="noreferrer" style={{ color: "var(--violet)", fontWeight: 600 }}>oneirraza@gmail.com</a></p>
-              <p style={{ marginTop: 8, fontSize: 13.5 }}>Preferred for EdTech partnerships, school pilots, and strategic conversations.</p>
+          <div className="grid3">
+            <Reveal className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <div className="icon"><Mail size={20} /></div>
+                <h3 style={{ fontSize: 20, marginBottom: 12 }}>Email</h3>
+                <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=oneirraza@gmail.com" target="_blank" rel="noreferrer" style={{ color: "var(--violet)", fontWeight: 600, fontSize: 16 }}>oneirraza@gmail.com</a></p>
+              </div>
+              <div style={{ marginTop: 24 }}>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=oneirraza@gmail.com" target="_blank" rel="noreferrer" className="btn btn-primary" style={{ padding: "10px 20px", fontSize: 13.5, width: "100%", justifyContent: "center" }}>
+                  Send Email <ArrowRight size={14} />
+                </a>
+              </div>
             </Reveal>
-            <Reveal className="card" delay={80}>
-              <div className="icon"><Phone size={20} /></div>
-              <h3>Phone</h3>
-              <p><a href="tel:+923351599612" style={{ color: "var(--violet)", fontWeight: 600 }}>+92 335 1599612</a></p>
-              <p style={{ marginTop: 8, fontSize: 13.5 }}>Pakistan timezone. Available for calls on EdTech, policy, and product conversations.</p>
+            <Reveal className="card" delay={80} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <div className="icon"><ExternalLink size={20} /></div>
+                <h3 style={{ fontSize: 20, marginBottom: 12 }}>LinkedIn</h3>
+                <p style={{ color: "var(--soft)", fontSize: 15 }}>5+ years of EdTech, M&amp;E systems, and policy leadership.</p>
+              </div>
+              <div style={{ marginTop: 24 }}>
+                <a href="https://www.linkedin.com/in/oneirraza" target="_blank" rel="noreferrer" className="btn btn-violet" style={{ padding: "10px 20px", fontSize: 13.5, width: "100%", justifyContent: "center" }}>
+                  Connect on LinkedIn <ExternalLink size={14} />
+                </a>
+              </div>
             </Reveal>
-            <Reveal className="card" delay={160}>
-              <div className="icon"><ExternalLink size={20} /></div>
-              <h3>Personal LinkedIn</h3>
-              <p style={{ marginTop: 8, fontSize: 13.5, marginBottom: 16 }}>4+ years of international development, EdTech strategy, and policy work.</p>
-              <a href="https://www.linkedin.com/in/oneirraza" target="_blank" rel="noreferrer" className="btn btn-violet" style={{ padding: "9px 18px", fontSize: 13, display: "inline-flex", gap: "6px" }}>
-                Connect on LinkedIn <ExternalLink size={14} />
-              </a>
-            </Reveal>
-            <Reveal className="card" delay={240}>
-              <div className="icon"><Globe size={20} /></div>
-              <h3>Manzil LinkedIn</h3>
-              <p style={{ marginTop: 8, fontSize: 13.5, marginBottom: 16 }}>Follow Manzil for product updates, school pilot news, and EdTech insights.</p>
-              <a href="https://www.linkedin.com/company/manzilai/" target="_blank" rel="noreferrer" className="btn btn-ghost-light" style={{ padding: "9px 18px", fontSize: 13, display: "inline-flex", gap: "6px" }}>
-                Follow Manzil <ExternalLink size={14} />
-              </a>
+            <Reveal className="card" delay={160} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <div className="icon"><Globe size={20} /></div>
+                <h3 style={{ fontSize: 20, marginBottom: 12 }}>Manzil LinkedIn</h3>
+                <p style={{ color: "var(--soft)", fontSize: 15 }}>Product updates, partner schools, and guidance innovation.</p>
+              </div>
+              <div style={{ marginTop: 24 }}>
+                <a href="https://www.linkedin.com/company/manzilai/" target="_blank" rel="noreferrer" className="btn btn-ghost-light" style={{ padding: "10px 20px", fontSize: 13.5, width: "100%", justifyContent: "center" }}>
+                  Follow Manzil <ExternalLink size={14} />
+                </a>
+              </div>
             </Reveal>
           </div>
         </div>
