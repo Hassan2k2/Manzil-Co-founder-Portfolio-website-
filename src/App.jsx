@@ -18,6 +18,7 @@ const NAV_ITEMS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
   { id: "research", label: "Research" },
   { id: "manzil", label: "Manzil" },
   { id: "contact", label: "Contact" },
@@ -25,41 +26,26 @@ const NAV_ITEMS = [
 
 const EXPERIENCE = [
   {
-    when: "Sept 2016 – Aug 2020", tag: "Education",
-    title: "Bachelor's in International Relations",
-    org: "National Defence University, Islamabad",
-    logo: "/NDU-logo.jfif",
+    when: "Oct 2024 – Present", tag: "CERP", current: true,
+    title: "Project Manager",
+    org: "Centre for Economic Research and Policy (CERP)",
+    place: "Lahore, Pakistan",
+    logo: "/CERP-logo.png",
     bullets: [
-      "Awarded the Merit Award and Chancellor's Gold Medal for the highest GPA in the graduating class.",
-    ],
-  },
-  {
-    when: "Sept 2020 – June 2022", tag: "Teach for Pakistan",
-    title: "Teaching and Leadership Fellow",
-    org: "Teach For Pakistan, Islamabad",
-    logo: "/tfp-logo.svg",
-    bullets: [
-      "Selected into an internationally recognised fellowship with a 3% acceptance rate; taught in partnership with government schools.",
-      "Partnered directly with government, collaborating with school principals, teachers, and parents to implement targeted learning strategies — raising average formative student math and English assessment scores from 40% to 75%.",
-      "Planned and implemented a community literacy project resulting in transformational impact on 4,500+ children — PKR 600,000 raised, evaluated at baseline, midline, and endline.",
-      "Liaised with 20+ key stakeholders and led a community partnership project aimed at building a library in the community.",
-    ],
-  },
-  {
-    when: "July 2022 – Dec 2022", tag: "Remoto",
-    title: "Communications and Partnerships Lead",
-    org: "Remoto, Madrid, Spain (remote-first)",
-    logo: "/remoto-logo.svg",
-    bullets: [
-      "Identified and promoted innovation and research partnerships across the US, UK, and Europe — initiating conversations and managing the pipeline progression from initial exploration to defined alignment.",
-      "Strengthened internal processes for tracking active collaborations and sharing market analysis across remote, cross-functional teams to ensure clear alignment on strategy priorities.",
-      "Structured and streamlined multi-channel communications and internal documentation across a global, remote-first team context.",
+      "Lead the design, scoping, and implementation of monitoring and evaluation (M&E) systems for a large-scale, quasi-experimental evaluation of a two-year government EdTech intervention across 341 public schools.",
+      "Map the regional EdTech landscape, evaluate AI-readiness, and flag operational gaps where external tech implementations could add direct value.",
+      "Act as the primary cross-organisational connector between field research operations, qualitative analysts, data engineering teams, and product content developers — ensuring all partner engagements reflect institutional priorities.",
+      "Manage and clean multi-source quantitative (Stata, SQL, Excel) and qualitative (NVivo) datasets for 10,000+ participants, conducting comprehensive evaluations at baseline, midline, and end-line stages.",
+      "Translate dense technical data into short, high-level insight summaries, policy briefs, and visual dashboards to inform strategic decision-making and project pilots for government partners.",
+      "Engage senior government counterparts, development sector research organisations, and community stakeholders to strengthen institutional education policy implementation and optimise digital service delivery.",
+      "Facilitate regular team stand-ups to operationalise project tracking, define milestones, manage cross-team dependencies, and proactively address bottlenecks to ensure on-time delivery of research outcomes.",
     ],
   },
   {
     when: "Jan 2023 – Aug 2023", tag: "Tabadlab",
     title: "Associate, Policy and Communications",
-    org: "Tabadlab, Islamabad, Pakistan",
+    org: "Tabadlab",
+    place: "Islamabad, Pakistan",
     logo: "/tabadlab-logo.svg",
     bullets: [
       "Managed and nurtured high-level collaborative relationships with federal ministries, private sector actors, and international donors (World Bank, BMGF), increasing stakeholder engagement by 40%.",
@@ -70,28 +56,65 @@ const EXPERIENCE = [
     ],
   },
   {
-    when: "Oct 2023 – Jul 2024", tag: "Education",
-    title: "MPhil, Education, Globalisation & International Development",
-    org: "University of Cambridge, United Kingdom",
-    logo: "/cambridge-uni-logo.png",
+    when: "July 2022 – Dec 2022", tag: "Remoto",
+    title: "Communications and Partnerships Lead",
+    org: "Remoto",
+    place: "Madrid, Spain (remote-first)",
+    logo: "/remoto-logo.svg",
     bullets: [
-      "Awarded the merit-based, fully-funded Chevening Scholarship.",
-      "Published research: 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan' with Sara Hennessy (EdTech Hub).",
+      "Identified and promoted innovation and research partnerships across the US, UK, and Europe — initiating conversations and managing the pipeline progression from initial exploration to defined alignment.",
+      "Strengthened internal processes for tracking active collaborations and sharing market analysis across remote, cross-functional teams to ensure clear alignment on strategy priorities.",
+      "Structured and streamlined multi-channel communications and internal documentation across a global, remote-first team context.",
     ],
   },
   {
-    when: "Oct 2024 – Present", tag: "CERP", current: true,
-    title: "Project Manager",
-    org: "Centre for Economic Research and Policy (CERP), Lahore",
-    logo: "/CERP-logo.png",
+    when: "Sept 2020 – June 2022", tag: "Teach for Pakistan",
+    title: "Teaching and Leadership Fellow",
+    org: "Teach For Pakistan",
+    place: "Islamabad, Pakistan",
+    logo: "/tfp-logo.svg",
     bullets: [
-      "Lead the design, scoping, and implementation of monitoring and evaluation (M&E) systems for a large-scale, quasi-experimental evaluation of a two-year government EdTech intervention across 341 schools.",
-      "Map the regional EdTech landscape, evaluate AI-readiness, and flag operational gaps where external tech implementations could add direct value.",
-      "Act as the primary cross-organisational connector between field research operations, qualitative analysts, data engineering teams, and product content developers — ensuring all partner engagements reflect institutional priorities.",
-      "Manage and clean multi-source quantitative (Stata, SQL, Excel) and qualitative (NVivo) datasets for 10,000+ participants, conducting comprehensive evaluations at baseline, midline, and end-line stages.",
-      "Translate dense technical data into short, high-level insight summaries, policy briefs, and visual dashboards to inform strategic decision-making and project pilots for government partners.",
-      "Engage senior government counterparts, development sector research organisations, and community stakeholders to strengthen institutional education policy implementation and optimise digital service delivery.",
-      "Facilitate regular team stand-ups to operationalise project tracking, define milestones, manage cross-team dependencies, and proactively address bottlenecks to ensure on-time delivery of research outcomes.",
+      "Selected into an internationally recognised fellowship with a 3% acceptance rate; taught in partnership with government schools.",
+      "Partnered directly with government, collaborating with school principals, teachers, and parents to implement targeted learning strategies — raising average formative student math and English assessment scores from 40% to 75%.",
+      "Planned and implemented a community literacy project resulting in transformational impact on 4,500+ children — PKR 600,000 raised, evaluated at baseline, midline, and endline.",
+      "Liaised with 20+ key stakeholders and led a community partnership project aimed at building a library in the community.",
+      "Drafted complex end-to-end program proposals, built resource models and managed budgets, monitored progress, and conducted comprehensive evaluations.",
+    ],
+  },
+];
+
+const EDUCATION_DATA = [
+  {
+    dates: "Oct 2023 – Jul 2024",
+    title: "MPhil in Education, Globalisation & International Development",
+    org: "University of Cambridge",
+    place: "Cambridge, United Kingdom",
+    logo: "/cambridge-uni-logo.png",
+    badge: "Chevening Scholar",
+    badgeLogo: "/chevening-logo.png",
+    photo: "/cambridge-graduate-pic.jfif",
+    photoCaption: "Oneir Raza graduating from University of Cambridge (Faculty of Education)",
+    summary: "Awarded the prestigious, fully-funded Chevening Scholarship from the UK Foreign, Commonwealth & Development Office (FCDO). Thesis on gender differences in EdTech use among students in Pakistan, co-authored with Sara Hennessy and published by EdTech Hub.",
+    bullets: [
+      "Prestigious UK Government Chevening Scholarship recipient (acceptance rate < 2%).",
+      "Published research: 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan' with Sara Hennessy (EdTech Hub).",
+      "Specialised in global educational globalisation, empirical impact evaluations, and quantitative/qualitative research methods in developing economies.",
+    ],
+  },
+  {
+    dates: "Sept 2016 – Aug 2020",
+    title: "Bachelor's in International Relations",
+    org: "National Defence University",
+    place: "Islamabad, Pakistan",
+    logo: "/NDU-logo.jfif",
+    badge: "Chancellor's Gold Medalist",
+    photo: "/chevening-pic.jfif",
+    photoCaption: "Oneir Raza — Merit Award & Chancellor's Gold Medalist",
+    summary: "Awarded the Chancellor's Gold Medal and Merit Award for achieving the highest GPA in the graduating class. Rigorous foundation in institutional policy, international political economy, and state structures.",
+    bullets: [
+      "Chancellor's Gold Medal for the highest overall GPA across the graduating class.",
+      "Merit Award for exceptional academic and extracurricular performance.",
+      "Formed foundational knowledge in policy dialogue, governance, and institutional design later applied across education sector reforms.",
     ],
   },
 ];
@@ -649,17 +672,18 @@ const CSS = `
     margin-bottom: 14px;
   }
   .logo-box {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
     background: #fff;
-    border: 1px solid var(--line);
+    border: 1.5px solid var(--line);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 7px;
     flex-shrink: 0;
     overflow: hidden;
+    box-shadow: 0 4px 12px rgba(21,11,51,0.04);
   }
   .logo-box img {
     max-width: 100%;
@@ -669,23 +693,85 @@ const CSS = `
   .partner-pill {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     background: #fff;
-    border: 1px solid var(--line);
+    border: 1.5px solid var(--line);
     border-radius: 100px;
-    padding: 8px 18px 8px 10px;
-    box-shadow: 0 2px 10px rgba(21,11,51,0.03);
-    transition: transform .2s ease, border-color .2s ease;
+    padding: 10px 22px 10px 12px;
+    box-shadow: 0 4px 14px rgba(21,11,51,0.04);
+    transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
   }
   .partner-pill:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     border-color: var(--violet);
+    box-shadow: 0 8px 24px rgba(108,60,225,0.12);
   }
   .partner-pill .logo-box {
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    padding: 4px;
+    padding: 6px;
+    box-shadow: none;
+  }
+  .edu-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 36px;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 40px;
+    align-items: center;
+    box-shadow: 0 10px 32px -10px rgba(21,11,51,0.07);
+    transition: transform .3s ease, box-shadow .3s ease;
+    margin-bottom: 32px;
+  }
+  .edu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 48px -12px rgba(21,11,51,0.14);
+  }
+  .edu-photo-wrap {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(21,11,51,0.12);
+    border: 1px solid var(--line);
+    aspect-ratio: 4/5;
+  }
+  .edu-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .4s ease;
+  }
+  .edu-photo-wrap:hover .edu-photo {
+    transform: scale(1.03);
+  }
+  .edu-badge-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--lavender);
+    color: var(--violet);
+    border: 1px solid var(--violet-glow);
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: .05em;
+  }
+  @media (max-width: 900px) {
+    .edu-card {
+      grid-template-columns: 1fr;
+      padding: 24px;
+      gap: 24px;
+    }
+    .edu-photo-wrap {
+      max-width: 320px;
+      margin: 0 auto;
+    }
   }
   .partner-pill span {
     font-size: 13.5px;
@@ -1155,23 +1241,53 @@ function AboutPage({ setPage }) {
       <section className="sec">
         <div className="wrap">
           <Reveal className="sec-head">
-            <div className="eyebrow">Education</div>
-            <h2>Two campuses, one throughline.</h2>
+            <div className="eyebrow">Academic Foundation</div>
+            <h2>Rigorous scholarship. Proven distinction.</h2>
+            <p>From graduating with the Chancellor's Gold Medal at NDU to conducting master's research at the University of Cambridge as a Chevening Scholar.</p>
           </Reveal>
           <div className="grid2">
-            <Reveal className="card">
-              <div className="wp-meta">Oct 2023 – Jul 2024</div>
-              <h3>MPhil in Education, Globalisation & International Development</h3>
-              <p className="org" style={{ color: "var(--violet)", fontWeight: 600, margin: "6px 0 12px" }}>University of Cambridge, United Kingdom</p>
-              <p>Awarded the merit-based, fully-funded Chevening Scholarship. Published: <em>"Exploring the gender differences in the use of EdTech amongst students in developing economies."</em></p>
+            <Reveal className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
+                  <div className="logo-box" style={{ width: 48, height: 48 }}>
+                    <img src="/cambridge-uni-logo.png" alt="University of Cambridge" />
+                  </div>
+                  <div>
+                    <div className="wp-meta" style={{ margin: 0 }}>Oct 2023 – Jul 2024</div>
+                    <div style={{ fontWeight: 700, color: 'var(--violet)', fontSize: 13.5 }}>University of Cambridge</div>
+                  </div>
+                </div>
+                <h3 style={{ fontSize: 18, marginBottom: 10 }}>MPhil in Education, Globalisation & International Development</h3>
+                <p style={{ color: 'var(--soft)', fontSize: 14.5 }}>Fully-funded Chevening Scholar. Published research on gender differences in home EdTech use in Pakistan with Sara Hennessy (EdTech Hub).</p>
+              </div>
+              <div style={{ marginTop: 20 }}>
+                <span className="tag-coral">Chevening Scholar</span>
+              </div>
             </Reveal>
-            <Reveal className="card" delay={100}>
-              <div className="wp-meta">Sept 2016 – Aug 2020</div>
-              <h3>Bachelor's in International Relations</h3>
-              <p className="org" style={{ color: "var(--violet)", fontWeight: 600, margin: "6px 0 12px" }}>National Defence University, Islamabad</p>
-              <p>Awarded the Merit Award and Chancellor's Gold Medal for the highest GPA in the graduating class.</p>
+            <Reveal className="card" delay={100} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
+                  <div className="logo-box" style={{ width: 48, height: 48 }}>
+                    <img src="/NDU-logo.jfif" alt="National Defence University" />
+                  </div>
+                  <div>
+                    <div className="wp-meta" style={{ margin: 0 }}>Sept 2016 – Aug 2020</div>
+                    <div style={{ fontWeight: 700, color: 'var(--violet)', fontSize: 13.5 }}>National Defence University</div>
+                  </div>
+                </div>
+                <h3 style={{ fontSize: 18, marginBottom: 10 }}>Bachelor's in International Relations</h3>
+                <p style={{ color: 'var(--soft)', fontSize: 14.5 }}>Awarded Chancellor's Gold Medal and Merit Award for achieving highest GPA in the graduating class. Foundation in governance and state institutions.</p>
+              </div>
+              <div style={{ marginTop: 20 }}>
+                <span className="tag">Chancellor's Gold Medalist</span>
+              </div>
             </Reveal>
           </div>
+          <Reveal delay={150} style={{ marginTop: 32 }}>
+            <MagBtn variant="ghost-light" onClick={() => setPage("education")}>
+              Explore degrees & photos <ArrowRight size={15} />
+            </MagBtn>
+          </Reveal>
         </div>
       </section>
 
@@ -1225,6 +1341,7 @@ function AboutPage({ setPage }) {
                 {[
                   { name: "University of Cambridge", logo: "/cambridge-uni-logo.png" },
                   { name: "Chevening Scholarships", logo: "/chevening-logo.png" },
+                  { name: "United Nations (UN)", logo: "/UN-logo.png" },
                   { name: "CERP", logo: "/CERP-logo.png" },
                   { name: "Tabadlab", logo: "/tabadlab-logo.svg" },
                   { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
@@ -1782,6 +1899,144 @@ function ManzilPage({ setPage }) {
   );
 }
 
+function EducationPage({ setPage }) {
+  return (
+    <div className="page-enter">
+      <HeroSection centered minHeight="55vh">
+        <div className="hero-grid" style={{ gridTemplateColumns: "1fr" }}>
+          <div className="center" style={{ maxWidth: 680, margin: "0 auto" }}>
+            <Reveal><div className="eyebrow" style={{ justifyContent: "center" }}>Academic Background</div></Reveal>
+            <Reveal delay={80}>
+              <h1 style={{ fontSize: "clamp(32px,4.4vw,54px)", marginTop: 14 }}>
+                Two campuses. <em>Uncompromising rigor.</em>
+              </h1>
+            </Reveal>
+            <Reveal delay={160}>
+              <p className="lead" style={{ margin: "16px auto 0" }}>
+                From graduating top of class with the Chancellor's Gold Medal in Islamabad to completing an MPhil at the University of Cambridge as a Chevening Scholar.
+              </p>
+            </Reveal>
+          </div>
+        </div>
+      </HeroSection>
+
+      <section className="sec">
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div className="eyebrow">Degrees & Distinctions</div>
+            <h2>Academic Credentials</h2>
+            <p>Formal qualifications and high-level honors that underpin my research, policy analysis, and EdTech work.</p>
+          </Reveal>
+
+          {EDUCATION_DATA.map((edu, idx) => (
+            <Reveal key={edu.org} delay={idx * 80}>
+              <article className="edu-card">
+                <div>
+                  <div className="edu-photo-wrap">
+                    <img src={edu.photo} alt={edu.photoCaption} className="edu-photo" />
+                  </div>
+                  <p style={{ fontSize: 12, color: "var(--soft)", textAlign: "center", marginTop: 10, fontStyle: "italic" }}>
+                    {edu.photoCaption}
+                  </p>
+                </div>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 16, flexWrap: "wrap" }}>
+                    <div className="logo-box">
+                      <img src={edu.logo} alt={edu.org} />
+                    </div>
+                    {edu.badgeLogo && (
+                      <div className="logo-box">
+                        <img src={edu.badgeLogo} alt="Chevening logo" />
+                      </div>
+                    )}
+                    <div>
+                      <div className="mono" style={{ fontSize: 12, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
+                        {edu.dates} · {edu.place}
+                      </div>
+                      <h4 style={{ fontSize: 16, color: "var(--violet)", fontWeight: 700 }}>{edu.org}</h4>
+                    </div>
+                  </div>
+
+                  <h3 style={{ fontSize: "clamp(22px,2.6vw,30px)", lineHeight: 1.25, marginBottom: 12 }}>
+                    {edu.title}
+                  </h3>
+
+                  <div style={{ marginBottom: 16 }}>
+                    <span className="edu-badge-pill">★ {edu.badge}</span>
+                  </div>
+
+                  <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 20 }}>
+                    {edu.summary}
+                  </p>
+
+                  <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7 }}>
+                    {edu.bullets.map((b, bIdx) => (
+                      <li key={bIdx} style={{ marginBottom: 6 }}>{b}</li>
+                    ))}
+                  </ul>
+
+                  {edu.title.includes("Cambridge") && (
+                    <div style={{ marginTop: 24, display: "flex", gap: 12, flexWrap: "wrap" }}>
+                      <MagBtn variant="primary" onClick={() => setPage("research")}>
+                        View published research <ArrowRight size={15} />
+                      </MagBtn>
+                    </div>
+                  )}
+                </div>
+              </article>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* Institutional honors strip */}
+      <section className="tint sec">
+        <div className="wrap">
+          <Reveal className="sec-head center" style={{ margin: "0 auto 40px" }}>
+            <div className="eyebrow" style={{ justifyContent: "center" }}>Honors & Fellowships</div>
+            <h2>Recognized for Academic Excellence</h2>
+          </Reveal>
+
+          <div className="grid3">
+            <Reveal className="card">
+              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+                <img src="/chevening-logo.png" alt="Chevening" />
+              </div>
+              <h3 style={{ fontSize: 18 }}>Chevening Scholarship</h3>
+              <p style={{ color: "var(--soft)", fontSize: 14 }}>Awarded by the UK Foreign, Commonwealth & Development Office to outstanding emerging leaders with leadership potential.</p>
+            </Reveal>
+            <Reveal className="card" delay={80}>
+              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+                <img src="/NDU-logo.jfif" alt="NDU" />
+              </div>
+              <h3 style={{ fontSize: 18 }}>Chancellor's Gold Medal</h3>
+              <p style={{ color: "var(--soft)", fontSize: 14 }}>Awarded by the National Defence University for graduating with the highest GPA across the entire graduating cohort.</p>
+            </Reveal>
+            <Reveal className="card" delay={160}>
+              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+                <img src="/cambridge-uni-logo.png" alt="Cambridge" />
+              </div>
+              <h3 style={{ fontSize: 18 }}>Cambridge University MPhil</h3>
+              <p style={{ color: "var(--soft)", fontSize: 14 }}>Completed at the Faculty of Education, specializing in globalization, empirical data analysis, and gender equity in EdTech.</p>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <section className="dark sec">
+        <div className="wrap center" style={{ maxWidth: 600 }}>
+          <Reveal><div className="eyebrow" style={{ justifyContent: "center" }}>Next Chapter</div></Reveal>
+          <Reveal delay={80}><h2 style={{ marginTop: 14, fontSize: "clamp(24px,3vw,36px)" }}>See how this academic rigor translates into real-world impact.</h2></Reveal>
+          <Reveal delay={160} style={{ marginTop: 24, display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
+            <MagBtn variant="primary" onClick={() => setPage("experience")}>View Experience <ArrowRight size={16} /></MagBtn>
+            <MagBtn variant="ghost" onClick={() => setPage("research")}>Explore Research</MagBtn>
+          </Reveal>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function ResearchPage({ setPage }) {
   const interests = [
     "EdTech adoption & equity",
@@ -2093,6 +2348,7 @@ export default function Portfolio() {
     home: HomePage,
     about: AboutPage,
     experience: ExperiencePage,
+    education: EducationPage,
     research: ResearchPage,
     manzil: ManzilPage,
     contact: ContactPage
