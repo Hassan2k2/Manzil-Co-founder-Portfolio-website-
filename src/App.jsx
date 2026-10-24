@@ -46,7 +46,7 @@ const EXPERIENCE = [
     title: "Associate, Policy and Communications",
     org: "Tabadlab",
     place: "Islamabad, Pakistan",
-    logo: "/tabadlab-new-logo.jpeg",
+    logo: "/tabadlab-new-logo.svg",
     bullets: [
       "Managed and nurtured high-level collaborative relationships with federal ministries, private sector actors, and international donors (World Bank, BMGF), increasing stakeholder engagement by 40%.",
       "Spearheaded a comprehensive policy dialogue roadmap involving 20+ institutional stakeholders, resulting in 10 actionable education sector reform recommendations for senior government partners.",
@@ -690,46 +690,59 @@ const CSS = `
     margin-bottom: 14px;
   }
   .logo-box {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
     background: #fff;
     border: 1.5px solid var(--line);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7px;
+    padding: 6px;
     flex-shrink: 0;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(21,11,51,0.04);
+    box-shadow: 0 6px 16px rgba(21,11,51,0.06);
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .logo-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(21,11,51,0.1);
   }
   .logo-box img {
+    width: 100%;
+    height: 100%;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    display: block;
   }
   .partner-pill {
     display: inline-flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
     background: #fff;
     border: 1.5px solid var(--line);
     border-radius: 100px;
-    padding: 10px 22px 10px 12px;
-    box-shadow: 0 4px 14px rgba(21,11,51,0.04);
+    padding: 10px 26px 10px 12px;
+    box-shadow: 0 4px 16px rgba(21,11,51,0.05);
     transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease;
   }
   .partner-pill:hover {
     transform: translateY(-3px);
     border-color: var(--violet);
-    box-shadow: 0 8px 24px rgba(108,60,225,0.12);
+    box-shadow: 0 10px 28px rgba(108,60,225,0.15);
   }
   .partner-pill .logo-box {
-    width: 44px;
-    height: 44px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     padding: 6px;
     box-shadow: none;
+  }
+  .partner-pill span {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--ink);
   }
   .edu-card {
     background: #fff;
@@ -1267,7 +1280,7 @@ function AboutPage({ setPage }) {
             <Reveal className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
-                  <div className="logo-box" style={{ width: 48, height: 48 }}>
+                  <div className="logo-box" style={{ width: 56, height: 56, padding: 6 }}>
                     <img src="/cambridge-uni-logo.png" alt="University of Cambridge" />
                   </div>
                   <div>
@@ -1285,7 +1298,7 @@ function AboutPage({ setPage }) {
             <Reveal className="card" delay={100} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 14 }}>
-                  <div className="logo-box" style={{ width: 48, height: 48 }}>
+                  <div className="logo-box" style={{ width: 56, height: 56, padding: 6 }}>
                     <img src="/NDU-logo.jfif" alt="National Defence University" />
                   </div>
                   <div>
@@ -1361,7 +1374,7 @@ function AboutPage({ setPage }) {
                   { name: "Chevening Scholarships", logo: "/chevening-logo.png" },
                   { name: "United Nations (UN)", logo: "/UN-logo.png" },
                   { name: "CERP", logo: "/CERP-logo.png" },
-                  { name: "Tabadlab", logo: "/tabadlab-new-logo.jpeg" },
+                  { name: "Tabadlab", logo: "/tabadlab-new-logo.svg" },
                   { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
                   { name: "World Bank", logo: "/world-bank-logo-2.png" },
                   { name: "Gates Foundation", logo: "/gates-foundation-logo.jfif" },
@@ -1409,7 +1422,7 @@ function PathwayTimeline() {
           <div className="wp-meta"><span>{e.when}</span><span>·</span><span>{e.tag}</span></div>
           <div style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 8 }}>
             {e.logo && (
-              <div className="logo-box" style={{ marginTop: 2 }}>
+              <div className="logo-box" style={{ width: 64, height: 64, marginTop: 2, padding: 6 }}>
                 <img src={e.logo} alt={e.org} />
               </div>
             )}
@@ -1443,7 +1456,7 @@ function ExperiencePage({ setPage }) {
         <div className="wrap">
           <Reveal className="sec-head" style={{ marginBottom: 40 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
-              <div className="logo-box" style={{ width: 44, height: 44 }}>
+              <div className="logo-box" style={{ width: 64, height: 64, padding: 6 }}>
                 <img src="/CERP-logo.png" alt="CERP logo" />
               </div>
               <span className="eyebrow" style={{ margin: 0 }}>Current Work · CERP Spotlight</span>
@@ -2201,21 +2214,21 @@ function EducationPage({ setPage }) {
 
           <div className="grid3">
             <Reveal className="card">
-              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+              <div className="logo-box" style={{ width: 68, height: 68, marginBottom: 16, padding: 8 }}>
                 <img src="/chevening-logo.png" alt="Chevening" />
               </div>
               <h3 style={{ fontSize: 18 }}>Chevening Scholarship</h3>
               <p style={{ color: "var(--soft)", fontSize: 14 }}>Awarded by the UK Foreign, Commonwealth & Development Office to outstanding emerging leaders with leadership potential.</p>
             </Reveal>
             <Reveal className="card" delay={80}>
-              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+              <div className="logo-box" style={{ width: 68, height: 68, marginBottom: 16, padding: 8 }}>
                 <img src="/NDU-logo.jfif" alt="NDU" />
               </div>
               <h3 style={{ fontSize: 18 }}>Chancellor's Gold Medal</h3>
               <p style={{ color: "var(--soft)", fontSize: 14 }}>Awarded by the National Defence University for graduating with the highest GPA across the entire graduating cohort.</p>
             </Reveal>
             <Reveal className="card" delay={160}>
-              <div className="logo-box" style={{ width: 56, height: 56, marginBottom: 16 }}>
+              <div className="logo-box" style={{ width: 68, height: 68, marginBottom: 16, padding: 8 }}>
                 <img src="/cambridge-uni-logo.png" alt="Cambridge" />
               </div>
               <h3 style={{ fontSize: 18 }}>Cambridge University MPhil</h3>
@@ -2292,7 +2305,7 @@ function ResearchPage({ setPage }) {
               </a>
               <div>
                 <div className="pub-meta">
-                  <div className="logo-box">
+                  <div className="logo-box" style={{ width: 56, height: 56, padding: 6 }}>
                     <img src="/edtechhub-logo.svg" alt="EdTech Hub logo" />
                   </div>
                   <p className="mono" style={{ fontSize: 11.5, color: "var(--violet)", letterSpacing: ".12em", textTransform: "uppercase" }}>
@@ -2363,8 +2376,8 @@ function ResearchPage({ setPage }) {
               </a>
               <div>
                 <div className="pub-meta">
-                  <div className="logo-box">
-                    <img src="/tabadlab-new-logo.jpeg" alt="Tabadlab logo" />
+                  <div className="logo-box" style={{ width: 56, height: 56, padding: 6 }}>
+                    <img src="/tabadlab-new-logo.svg" alt="Tabadlab logo" />
                   </div>
                   <p className="mono" style={{ fontSize: 11.5, color: "var(--violet)", letterSpacing: ".12em", textTransform: "uppercase" }}>
                     Tabadlab · July 2023
