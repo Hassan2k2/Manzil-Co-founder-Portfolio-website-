@@ -1582,6 +1582,83 @@ function ManzilPage({ setPage }) {
         </div>
       </div>
 
+      {/* Real Manzil Platform Showcase */}
+      <section className="sec" style={{ paddingBottom: 32 }}>
+        <div className="wrap">
+          <Reveal className="sec-head center" style={{ margin: "0 auto 36px", textAlign: "center" }}>
+            <div className="eyebrow" style={{ justifyContent: "center" }}>Live Product Preview</div>
+            <h2>The Manzil Platform & Assessment Engine</h2>
+            <p style={{ maxWidth: 640, margin: "12px auto 0" }}>
+              Explore the student assessment interface, psychometric profiling, and multi-country university pathway matching engine.
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <div style={{
+              background: "#1a0a38",
+              padding: "16px 16px 0",
+              borderRadius: 24,
+              boxShadow: "0 25px 60px -15px rgba(26,10,56,0.35)",
+              border: "1px solid rgba(255,255,255,0.15)",
+              maxWidth: 1060,
+              margin: "0 auto"
+            }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, paddingBottom: 14, paddingLeft: 8 }}>
+                <span style={{ width: 11, height: 11, borderRadius: "50%", background: "#ff5f56", display: "inline-block" }} />
+                <span style={{ width: 11, height: 11, borderRadius: "50%", background: "#ffbd2e", display: "inline-block" }} />
+                <span style={{ width: 11, height: 11, borderRadius: "50%", background: "#27c93f", display: "inline-block" }} />
+                <span style={{
+                  marginLeft: 16,
+                  background: "rgba(255,255,255,0.08)",
+                  borderRadius: 100,
+                  padding: "4px 18px",
+                  fontSize: 12,
+                  fontFamily: "'Space Mono', monospace",
+                  color: "rgba(255,255,255,0.6)"
+                }}>
+                  app.manzil.pk · Student Dashboard &amp; Assessment Interface
+                </span>
+              </div>
+              <a href="https://manzil-website.vercel.app" target="_blank" rel="noreferrer" style={{ display: "block", overflow: "hidden", borderRadius: "14px 14px 0 0" }}>
+                <img
+                  src="/manzil-dashboard.webp"
+                  alt="The Manzil platform student dashboard"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    display: "block",
+                    borderRadius: "14px 14px 0 0",
+                    transition: "transform .4s ease"
+                  }}
+                  onMouseOver={e => e.currentTarget.style.transform = "scale(1.01)"}
+                  onMouseOut={e => e.currentTarget.style.transform = "scale(1.0)"}
+                />
+              </a>
+            </div>
+            <div style={{ display: "flex", justifyContent: "center", gap: 14, marginTop: 24, flexWrap: "wrap" }}>
+              <a
+                href="https://manzil-website.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+                style={{ fontSize: 13.5, padding: "11px 24px" }}
+              >
+                Visit Manzil Platform <ExternalLink size={14} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/manzilai/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-ghost-light"
+                style={{ fontSize: 13.5, padding: "11px 24px" }}
+              >
+                Follow on LinkedIn <ExternalLink size={14} />
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       <section className="sec">
         <div className="wrap">
           <Reveal className="sec-head">
