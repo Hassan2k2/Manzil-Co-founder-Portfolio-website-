@@ -325,7 +325,7 @@ const CSS = `
     gap: 60px; align-items: center;
   }
   .hero.centered .hero-grid { grid-template-columns: 1fr; text-align: center; }
-  .hero h1 { font-size: clamp(38px,5.2vw,68px); line-height: 1.06; color: #fff; }
+  .hero h1 { font-size: clamp(32px,4.3vw,58px); line-height: 1.12; color: #fff; text-wrap: balance; }
   .hero h1 em { font-style: italic; color: var(--lavender-deep); }
   .hero .lead { margin-top: 22px; max-width: 500px; color: var(--softD); font-size: 17px; line-height: 1.65; }
   .hero-actions { display: flex; gap: 14px; margin-top: 36px; flex-wrap: wrap; }
@@ -1150,10 +1150,10 @@ function HomePage({ setPage }) {
         <div className="hero-grid">
           <div>
             <Reveal>
-              <div className="eyebrow" style={{ marginBottom: 20 }}>Bridging research, technology, and policy to scale education innovation</div>
+              <div className="eyebrow" style={{ marginBottom: 20 }}>EdTech · AI in Education · Global Development</div>
             </Reveal>
             <Reveal delay={80}>
-              <h1>Evidence is the <em>strongest</em><br />education technology.</h1>
+              <h1>Bridging research, technology, and policy to scale <em>education innovation.</em></h1>
             </Reveal>
             <Reveal delay={160}>
               <p className="lead">Cambridge-trained EdTech and M&E leader with 5+ years designing government-scale education evaluations, authoring global research on gender & digital learning, and founding Manzil — Pakistan's first psychometric pathway platform.</p>
