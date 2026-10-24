@@ -92,8 +92,11 @@ const EDUCATION_DATA = [
     logo: "/cambridge-uni-logo.png",
     badge: "Chevening Scholar",
     badgeLogo: "/chevening-logo.png",
-    photo: "/cambridge-graduate-pic.jfif",
-    photoCaption: "Oneir Raza graduating from University of Cambridge (Faculty of Education)",
+    photos: [
+      { src: "/cambridge-graduate-pic.jfif", caption: "Cambridge Graduation Day" },
+      { src: "/cambridge-graduate-pic-2.jfif", caption: "Academic Robes at Cambridge" },
+      { src: "/cambridge-graduate-pic-3.jfif", caption: "Cambridge Faculty of Education" },
+    ],
     summary: "Awarded the prestigious, fully-funded Chevening Scholarship from the UK Foreign, Commonwealth & Development Office (FCDO). Thesis on gender differences in EdTech use among students in Pakistan, co-authored with Sara Hennessy and published by EdTech Hub.",
     bullets: [
       "Prestigious UK Government Chevening Scholarship recipient (acceptance rate < 2%).",
@@ -108,8 +111,6 @@ const EDUCATION_DATA = [
     place: "Islamabad, Pakistan",
     logo: "/NDU-logo.jfif",
     badge: "Chancellor's Gold Medalist",
-    photo: "/chevening-pic.jfif",
-    photoCaption: "Oneir Raza — Merit Award & Chancellor's Gold Medalist",
     summary: "Awarded the Chancellor's Gold Medal and Merit Award for achieving the highest GPA in the graduating class. Rigorous foundation in institutional policy, international political economy, and state structures.",
     bullets: [
       "Chancellor's Gold Medal for the highest overall GPA across the graduating class.",
@@ -118,6 +119,22 @@ const EDUCATION_DATA = [
     ],
   },
 ];
+
+const CHEVENING_FEATURE = {
+  title: "UK Government Chevening Scholarship",
+  dates: "2023 – 2024",
+  logo: "/chevening-logo.png",
+  photos: [
+    { src: "/chevening-pic.jfif", caption: "Chevening Scholar Award & Recognition" },
+    { src: "/chevening-pic-2.jfif", caption: "UK Foreign, Commonwealth & Development Office Celebration" },
+  ],
+  summary: "Awarded the UK Government's flagship international awards programme, funded by the Foreign, Commonwealth and Development Office (FCDO). Chevening selects future leaders and influencers from across the globe to study in the UK.",
+  bullets: [
+    "Fully-funded master's scholarship to the University of Cambridge covering tuition, living expenses, and research support.",
+    "Selected from thousands of competitive applicants across Pakistan (acceptance rate below 2%).",
+    "Active member of the global Chevening Alumni Network spanning 160+ countries and territories.",
+  ],
+};
 
 /* =========================================================
    STYLES
@@ -1345,7 +1362,7 @@ function AboutPage({ setPage }) {
                   { name: "CERP", logo: "/CERP-logo.png" },
                   { name: "Tabadlab", logo: "/tabadlab-logo.svg" },
                   { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
-                  { name: "World Bank", logo: "/world-bank-logo.png" },
+                  { name: "World Bank", logo: "/world-bank-logo-2.png" },
                   { name: "Gates Foundation", logo: "/gates-foundation-logo.jfif" },
                   { name: "National Defence University", logo: "/NDU-logo.jfif" },
                 ].map(org => (
@@ -1923,69 +1940,176 @@ function EducationPage({ setPage }) {
       <section className="sec">
         <div className="wrap">
           <Reveal className="sec-head">
-            <div className="eyebrow">Degrees & Distinctions</div>
+            <div className="eyebrow">Degrees & Academic Rigor</div>
             <h2>Academic Credentials</h2>
-            <p>Formal qualifications and high-level honors that underpin my research, policy analysis, and EdTech work.</p>
+            <p>Formal qualifications and high-level distinctions that underpin my research, policy analysis, and EdTech work.</p>
           </Reveal>
 
-          {EDUCATION_DATA.map((edu, idx) => (
-            <Reveal key={edu.org} delay={idx * 80}>
-              <article className="edu-card">
-                <div>
-                  <div className="edu-photo-wrap">
-                    <img src={edu.photo} alt={edu.photoCaption} className="edu-photo" />
-                  </div>
-                  <p style={{ fontSize: 12, color: "var(--soft)", textAlign: "center", marginTop: 10, fontStyle: "italic" }}>
-                    {edu.photoCaption}
-                  </p>
+          {/* Cambridge Degree Card with 3 Graduate Photos */}
+          <Reveal>
+            <article className="edu-card" style={{ gridTemplateColumns: '1fr', padding: '36px' }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 16, flexWrap: "wrap" }}>
+                <div className="logo-box" style={{ width: 60, height: 60 }}>
+                  <img src="/cambridge-uni-logo.png" alt="University of Cambridge" />
+                </div>
+                <div className="logo-box" style={{ width: 60, height: 60 }}>
+                  <img src="/chevening-logo.png" alt="Chevening logo" />
                 </div>
                 <div>
-                  <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 16, flexWrap: "wrap" }}>
-                    <div className="logo-box">
-                      <img src={edu.logo} alt={edu.org} />
-                    </div>
-                    {edu.badgeLogo && (
-                      <div className="logo-box">
-                        <img src={edu.badgeLogo} alt="Chevening logo" />
-                      </div>
-                    )}
-                    <div>
-                      <div className="mono" style={{ fontSize: 12, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
-                        {edu.dates} · {edu.place}
-                      </div>
-                      <h4 style={{ fontSize: 16, color: "var(--violet)", fontWeight: 700 }}>{edu.org}</h4>
-                    </div>
+                  <div className="mono" style={{ fontSize: 12.5, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
+                    Oct 2023 – Jul 2024 · Cambridge, United Kingdom
                   </div>
-
-                  <h3 style={{ fontSize: "clamp(22px,2.6vw,30px)", lineHeight: 1.25, marginBottom: 12 }}>
-                    {edu.title}
-                  </h3>
-
-                  <div style={{ marginBottom: 16 }}>
-                    <span className="edu-badge-pill">★ {edu.badge}</span>
-                  </div>
-
-                  <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 20 }}>
-                    {edu.summary}
-                  </p>
-
-                  <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7 }}>
-                    {edu.bullets.map((b, bIdx) => (
-                      <li key={bIdx} style={{ marginBottom: 6 }}>{b}</li>
-                    ))}
-                  </ul>
-
-                  {edu.title.includes("Cambridge") && (
-                    <div style={{ marginTop: 24, display: "flex", gap: 12, flexWrap: "wrap" }}>
-                      <MagBtn variant="primary" onClick={() => setPage("research")}>
-                        View published research <ArrowRight size={15} />
-                      </MagBtn>
-                    </div>
-                  )}
+                  <h4 style={{ fontSize: 17, color: "var(--violet)", fontWeight: 700 }}>University of Cambridge</h4>
                 </div>
-              </article>
-            </Reveal>
-          ))}
+                <div style={{ marginLeft: "auto" }}>
+                  <span className="edu-badge-pill">★ Chevening Scholar</span>
+                </div>
+              </div>
+
+              <h3 style={{ fontSize: "clamp(24px,2.8vw,32px)", lineHeight: 1.25, marginBottom: 14 }}>
+                MPhil in Education, Globalisation & International Development
+              </h3>
+
+              <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.65, marginBottom: 20 }}>
+                Awarded the prestigious, fully-funded Chevening Scholarship from the UK Foreign, Commonwealth & Development Office (FCDO). Thesis on gender differences in EdTech use among students in Pakistan, co-authored with Sara Hennessy and published by EdTech Hub.
+              </p>
+
+              {/* 3 Cambridge Graduation Photos */}
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 18, margin: "24px 0" }}>
+                {[
+                  { src: "/cambridge-graduate-pic.jfif", caption: "Cambridge Graduation Day" },
+                  { src: "/cambridge-graduate-pic-2.jfif", caption: "Cambridge Academic Dress" },
+                  { src: "/cambridge-graduate-pic-3.jfif", caption: "Faculty of Education, Cambridge" },
+                ].map((p, pIdx) => (
+                  <div key={pIdx}>
+                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5', maxHeight: 320 }}>
+                      <img src={p.src} alt={p.caption} className="edu-photo" />
+                    </div>
+                    <p style={{ fontSize: 12, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
+                      {p.caption}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7, marginTop: 12 }}>
+                <li style={{ marginBottom: 6 }}>Prestigious UK Government Chevening Scholarship recipient (acceptance rate &lt; 2%).</li>
+                <li style={{ marginBottom: 6 }}>Published research: 'Exploring the Gender Differences in Technology Use for Educational Purposes at Home Among Students in Pakistan' with Sara Hennessy (EdTech Hub).</li>
+                <li style={{ marginBottom: 6 }}>Specialised in educational globalisation, empirical impact evaluations, and quantitative/qualitative research methods in developing economies.</li>
+              </ul>
+
+              <div style={{ marginTop: 24, display: "flex", gap: 12, flexWrap: "wrap" }}>
+                <MagBtn variant="primary" onClick={() => setPage("research")}>
+                  View published research <ArrowRight size={15} />
+                </MagBtn>
+              </div>
+            </article>
+          </Reveal>
+
+          {/* National Defence University Card (Clean, Academic) */}
+          <Reveal delay={80}>
+            <article className="edu-card" style={{ gridTemplateColumns: '1fr', padding: '36px' }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 16, flexWrap: "wrap" }}>
+                <div className="logo-box" style={{ width: 60, height: 60 }}>
+                  <img src="/NDU-logo.jfif" alt="National Defence University" />
+                </div>
+                <div>
+                  <div className="mono" style={{ fontSize: 12.5, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
+                    Sept 2016 – Aug 2020 · Islamabad, Pakistan
+                  </div>
+                  <h4 style={{ fontSize: 17, color: "var(--violet)", fontWeight: 700 }}>National Defence University</h4>
+                </div>
+                <div style={{ marginLeft: "auto" }}>
+                  <span className="edu-badge-pill" style={{ background: "rgba(255,107,74,0.12)", color: "var(--coral)", borderColor: "rgba(255,107,74,0.3)" }}>
+                    ★ Chancellor's Gold Medalist
+                  </span>
+                </div>
+              </div>
+
+              <h3 style={{ fontSize: "clamp(24px,2.8vw,32px)", lineHeight: 1.25, marginBottom: 14 }}>
+                Bachelor's in International Relations
+              </h3>
+
+              <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.65, marginBottom: 16 }}>
+                Awarded the Chancellor's Gold Medal and Merit Award for achieving the highest GPA across the graduating class. Established a deep grounding in institutional policy, governance, and state structures later applied in education sector reforms.
+              </p>
+
+              <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7 }}>
+                <li style={{ marginBottom: 6 }}>Chancellor's Gold Medal for the highest overall GPA across the graduating class.</li>
+                <li style={{ marginBottom: 6 }}>Merit Award for exceptional academic and extracurricular performance.</li>
+                <li style={{ marginBottom: 6 }}>Formed foundational knowledge in policy dialogue, governance, and institutional design later applied across education sector reforms.</li>
+              </ul>
+            </article>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Dedicated Chevening Fellowship Section with both Chevening Photos */}
+      <section className="sec" style={{ background: "linear-gradient(180deg, var(--lavender) 0%, #fff 100%)", borderTop: "1px solid var(--line)" }}>
+        <div className="wrap">
+          <Reveal className="sec-head">
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
+              <div className="logo-box" style={{ width: 52, height: 52 }}>
+                <img src="/chevening-logo.png" alt="Chevening logo" />
+              </div>
+              <span className="eyebrow" style={{ margin: 0 }}>Prestigious Fellowship</span>
+            </div>
+            <h2>Chevening Scholarship Fellowship</h2>
+            <p>Funded by the UK Foreign, Commonwealth & Development Office (FCDO), recognizing exceptional global leaders.</p>
+          </Reveal>
+
+          <Reveal>
+            <article className="edu-card" style={{ gridTemplateColumns: "minmax(300px, 420px) 1fr", padding: "36px" }}>
+              <div>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
+                  <div>
+                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5' }}>
+                      <img src="/chevening-pic.jfif" alt="Chevening Scholar Award & Recognition" className="edu-photo" />
+                    </div>
+                    <p style={{ fontSize: 11.5, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
+                      Chevening Award Ceremony
+                    </p>
+                  </div>
+                  <div>
+                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5' }}>
+                      <img src="/chevening-pic-2.jfif" alt="Chevening Scholar UK FCDO Celebration" className="edu-photo" />
+                    </div>
+                    <p style={{ fontSize: 11.5, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
+                      UK Chevening Scholar Event
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div className="mono" style={{ fontSize: 12, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase", marginBottom: 8 }}>
+                  UK Foreign, Commonwealth & Development Office (FCDO)
+                </div>
+                <h3 style={{ fontSize: "clamp(22px,2.5vw,28px)", lineHeight: 1.25, marginBottom: 14 }}>
+                  Chevening Scholar — Leadership & Global Impact
+                </h3>
+                <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 18 }}>
+                  Chevening is the UK Government's global scholarship programme that funds future leaders, decision-makers, and opinion formers. Awarded to pursue graduate studies at the University of Cambridge based on proven leadership capacity and academic merit.
+                </p>
+
+                <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7, marginBottom: 24 }}>
+                  <li style={{ marginBottom: 6 }}>Fully-funded fellowship to the University of Cambridge covering tuition, research stipends, and international conferences.</li>
+                  <li style={{ marginBottom: 6 }}>Selected among thousands of competitive applicants across Pakistan (&lt; 2% selection rate).</li>
+                  <li style={{ marginBottom: 6 }}>Connected to an influential global network of over 55,000 alumni across 160+ countries.</li>
+                </ul>
+
+                <a
+                  href="https://www.chevening.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-ghost-light"
+                  style={{ fontSize: 13.5, padding: "11px 22px" }}
+                >
+                  Learn about Chevening <ExternalLink size={14} />
+                </a>
+              </div>
+            </article>
+          </Reveal>
         </div>
       </section>
 
