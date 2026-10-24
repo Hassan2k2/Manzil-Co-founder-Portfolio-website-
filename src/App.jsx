@@ -72,7 +72,7 @@ const EXPERIENCE = [
     title: "Teaching and Leadership Fellow",
     org: "Teach For Pakistan",
     place: "Islamabad, Pakistan",
-    logo: "/tfp-logo.svg",
+    logo: "/teach-for-pak-new.webp",
     bullets: [
       "Selected into an internationally recognised fellowship with a 3% acceptance rate; taught in partnership with government schools.",
       "Partnered directly with government, collaborating with school principals, teachers, and parents to implement targeted learning strategies — raising average formative student math and English assessment scores from 40% to 75%.",
@@ -1375,7 +1375,7 @@ function AboutPage({ setPage }) {
                   { name: "United Nations (UN)", logo: "/UN-logo.png" },
                   { name: "CERP", logo: "/CERP-logo.png" },
                   { name: "Tabadlab", logo: "/tabadlab-new-logo.svg" },
-                  { name: "Teach For Pakistan", logo: "/tfp-logo.svg" },
+                  { name: "Teach For Pakistan", logo: "/teach-for-pak-new.webp" },
                   { name: "World Bank", logo: "/world-bank-logo-2.png" },
                   { name: "Gates Foundation", logo: "/gates-foundation-logo.jfif" },
                   { name: "National Defence University", logo: "/NDU-logo.jfif" },
