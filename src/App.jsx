@@ -2138,45 +2138,54 @@ function EducationPage({ setPage }) {
           </Reveal>
 
           <Reveal>
-            <article className="edu-card" style={{ gridTemplateColumns: "minmax(300px, 420px) 1fr", padding: "36px" }}>
-              <div>
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
-                  <div>
-                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5' }}>
-                      <img src="/chevening-pic.jfif" alt="Chevening Scholar Award & Recognition" className="edu-photo" />
-                    </div>
-                    <p style={{ fontSize: 11.5, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
-                      Chevening Award Ceremony
-                    </p>
+            <article className="edu-card" style={{ gridTemplateColumns: '1fr', padding: '36px' }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 16, flexWrap: "wrap" }}>
+                <div className="logo-box" style={{ width: 60, height: 60 }}>
+                  <img src="/chevening-logo.png" alt="Chevening logo" />
+                </div>
+                <div>
+                  <div className="mono" style={{ fontSize: 12.5, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase" }}>
+                    UK Foreign, Commonwealth & Development Office (FCDO)
                   </div>
-                  <div>
-                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5' }}>
-                      <img src="/chevening-pic-2.jfif" alt="Chevening Scholar UK FCDO Celebration" className="edu-photo" />
-                    </div>
-                    <p style={{ fontSize: 11.5, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
-                      UK Chevening Scholar Event
-                    </p>
-                  </div>
+                  <h4 style={{ fontSize: 17, color: "var(--violet)", fontWeight: 700 }}>Chevening Scholar Award</h4>
+                </div>
+                <div style={{ marginLeft: "auto" }}>
+                  <span className="edu-badge-pill">★ UK Government Global Leader</span>
                 </div>
               </div>
 
+              <h3 style={{ fontSize: "clamp(24px,2.8vw,32px)", lineHeight: 1.25, marginBottom: 14 }}>
+                Chevening Scholar — Leadership &amp; Global Impact
+              </h3>
+
+              <p style={{ color: "var(--soft)", fontSize: 16, lineHeight: 1.65, marginBottom: 20 }}>
+                Chevening is the UK Government's flagship global scholarship programme that funds future leaders, decision-makers, and opinion formers. Awarded to pursue graduate studies at the University of Cambridge based on proven leadership capacity and academic merit.
+              </p>
+
+              {/* Responsive 2-Photo Gallery identical to the Cambridge card */}
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 18, margin: "24px 0" }}>
+                {[
+                  { src: "/chevening-pic.jfif", caption: "Chevening Award Ceremony & Certificate" },
+                  { src: "/chevening-pic-2.jfif", caption: "UK Chevening Scholar Reception & Event" },
+                ].map((p, pIdx) => (
+                  <div key={pIdx}>
+                    <div className="edu-photo-wrap" style={{ aspectRatio: '4/5', maxHeight: 320 }}>
+                      <img src={p.src} alt={p.caption} className="edu-photo" />
+                    </div>
+                    <p style={{ fontSize: 12, color: "var(--soft)", textAlign: "center", marginTop: 8, fontStyle: "italic" }}>
+                      {p.caption}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7, marginTop: 12, marginBottom: 24 }}>
+                <li style={{ marginBottom: 6 }}>Fully-funded fellowship to the University of Cambridge covering tuition, research stipends, and international conferences.</li>
+                <li style={{ marginBottom: 6 }}>Selected among thousands of competitive applicants across Pakistan (&lt; 2% selection rate).</li>
+                <li style={{ marginBottom: 6 }}>Connected to an influential global network of over 55,000 alumni across 160+ countries.</li>
+              </ul>
+
               <div>
-                <div className="mono" style={{ fontSize: 12, color: "var(--coral)", letterSpacing: ".1em", textTransform: "uppercase", marginBottom: 8 }}>
-                  UK Foreign, Commonwealth & Development Office (FCDO)
-                </div>
-                <h3 style={{ fontSize: "clamp(22px,2.5vw,28px)", lineHeight: 1.25, marginBottom: 14 }}>
-                  Chevening Scholar — Leadership & Global Impact
-                </h3>
-                <p style={{ color: "var(--soft)", fontSize: 15.5, lineHeight: 1.65, marginBottom: 18 }}>
-                  Chevening is the UK Government's global scholarship programme that funds future leaders, decision-makers, and opinion formers. Awarded to pursue graduate studies at the University of Cambridge based on proven leadership capacity and academic merit.
-                </p>
-
-                <ul style={{ paddingLeft: 20, color: "var(--soft)", fontSize: 14.5, lineHeight: 1.7, marginBottom: 24 }}>
-                  <li style={{ marginBottom: 6 }}>Fully-funded fellowship to the University of Cambridge covering tuition, research stipends, and international conferences.</li>
-                  <li style={{ marginBottom: 6 }}>Selected among thousands of competitive applicants across Pakistan (&lt; 2% selection rate).</li>
-                  <li style={{ marginBottom: 6 }}>Connected to an influential global network of over 55,000 alumni across 160+ countries.</li>
-                </ul>
-
                 <a
                   href="https://www.chevening.org/"
                   target="_blank"
